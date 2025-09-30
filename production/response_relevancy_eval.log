@@ -1,0 +1,1017 @@
+2025-05-24 14:00:36,236 - RAG Application - INFO - Sample 7: Score = {'llm_context_precision_with_reference': 0.0}
+2025-05-24 14:00:48,239 - RAG Application - INFO - Added delay in llm call for question 7
+2025-05-24 14:00:48,240 - RAG Application - INFO - Evaluating sample 8/14
+2025-05-24 14:01:45,438 - RAG Application - INFO - Sample 8: Score = {'llm_context_precision_with_reference': 0.0}
+2025-05-24 14:01:57,446 - RAG Application - INFO - Added delay in llm call for question 8
+2025-05-24 14:01:57,447 - RAG Application - INFO - Evaluating sample 9/14
+2025-05-24 14:02:40,160 - RAG Application - INFO - Sample 9: Score = {'llm_context_precision_with_reference': 0.999999999975}
+2025-05-24 14:02:52,166 - RAG Application - INFO - Added delay in llm call for question 9
+2025-05-24 14:02:52,167 - RAG Application - INFO - Evaluating sample 10/14
+2025-05-24 14:03:48,574 - RAG Application - INFO - Sample 10: Score = {'llm_context_precision_with_reference': 0.0}
+2025-05-24 14:04:00,585 - RAG Application - INFO - Added delay in llm call for question 10
+2025-05-24 14:04:00,586 - RAG Application - INFO - Evaluating sample 11/14
+2025-05-24 14:04:51,704 - RAG Application - INFO - Sample 11: Score = {'llm_context_precision_with_reference': 0.5833333333041666}
+2025-05-24 14:05:03,705 - RAG Application - INFO - Added delay in llm call for question 11
+2025-05-24 14:05:03,705 - RAG Application - INFO - Evaluating sample 12/14
+2025-05-24 14:05:52,049 - RAG Application - INFO - Sample 12: Score = {'llm_context_precision_with_reference': 0.9166666666361111}
+2025-05-24 14:06:04,052 - RAG Application - INFO - Added delay in llm call for question 12
+2025-05-24 14:06:04,054 - RAG Application - INFO - Evaluating sample 13/14
+2025-05-24 14:06:58,957 - RAG Application - INFO - Sample 13: Score = {'llm_context_precision_with_reference': 0.8874999999778125}
+2025-05-24 14:07:10,961 - RAG Application - INFO - Added delay in llm call for question 13
+2025-05-24 14:07:10,961 - RAG Application - INFO - Evaluating sample 14/14
+2025-05-24 14:08:02,674 - RAG Application - INFO - Sample 14: Score = {'llm_context_precision_with_reference': 0.0}
+2025-05-24 14:08:14,679 - RAG Application - INFO - Added delay in llm call for question 14
+2025-05-24 14:08:14,680 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-24 14:08:14,682 - RAG Application - INFO - Context Precision: nan
+2025-05-24 14:08:14,682 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,683 - RAG Application - INFO - Question 2: Where is DRAIL laboratory located at?
+2025-05-24 14:08:14,688 - RAG Application - INFO - Context Precision: 0.4499999999775
+2025-05-24 14:08:14,689 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,689 - RAG Application - INFO - Question 3: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-24 14:08:14,689 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-24 14:08:14,689 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,692 - RAG Application - INFO - Question 4: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-24 14:08:14,692 - RAG Application - INFO - Context Precision: 0.0
+2025-05-24 14:08:14,692 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,692 - RAG Application - INFO - Question 5: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-05-24 14:08:14,695 - RAG Application - INFO - Context Precision: 0.0
+2025-05-24 14:08:14,696 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,697 - RAG Application - INFO - Question 6: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-05-24 14:08:14,697 - RAG Application - INFO - Context Precision: 0.999999999975
+2025-05-24 14:08:14,697 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,697 - RAG Application - INFO - Question 7: What are Stephen Ramsey's research areas?
+2025-05-24 14:08:14,697 - RAG Application - INFO - Context Precision: 0.0
+2025-05-24 14:08:14,697 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,697 - RAG Application - INFO - Question 8: What research areas does Lizhong Chen focus on?
+
+2025-05-24 14:08:14,697 - RAG Application - INFO - Context Precision: 0.0
+2025-05-24 14:08:14,697 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,697 - RAG Application - INFO - Question 9: Who runs the Charisma lab?
+
+2025-05-24 14:08:14,697 - RAG Application - INFO - Context Precision: 0.999999999975
+2025-05-24 14:08:14,703 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,703 - RAG Application - INFO - Question 10: How many robotics groups are present ?
+
+2025-05-24 14:08:14,703 - RAG Application - INFO - Context Precision: 0.0
+2025-05-24 14:08:14,703 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,703 - RAG Application - INFO - Question 11: Can you tell me about the information processing group
+
+2025-05-24 14:08:14,703 - RAG Application - INFO - Context Precision: 0.5833333333041666
+2025-05-24 14:08:14,703 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,703 - RAG Application - INFO - Question 12: Has anyone worked on negative effects of AI?
+
+2025-05-24 14:08:14,703 - RAG Application - INFO - Context Precision: 0.9166666666361111
+2025-05-24 14:08:14,703 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,703 - RAG Application - INFO - Question 13: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-24 14:08:14,703 - RAG Application - INFO - Context Precision: 0.8874999999778125
+2025-05-24 14:08:14,703 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,703 - RAG Application - INFO - Question 14: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-24 14:08:14,703 - RAG Application - INFO - Context Precision: 0.0
+2025-05-24 14:08:14,703 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:08:14,712 - RAG Application - INFO - Average Context Precision score for chroma_metadata: 0.44903846152504545
+2025-05-24 14:08:14,838 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\mpnet_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-24 14:08:15,039 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-24 14:09:15,050 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata_reranker
+2025-05-24 14:09:15,104 - RAG Application - INFO - Evaluating sample 1/14
+2025-05-24 14:09:18,009 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-24 14:09:30,019 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-24 14:09:30,019 - RAG Application - INFO - Evaluating sample 2/14
+2025-05-24 14:10:14,624 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.6999999999766667}
+2025-05-24 14:10:26,628 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-24 14:10:26,628 - RAG Application - INFO - Evaluating sample 3/14
+2025-05-24 14:11:22,102 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-24 14:11:34,114 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-24 14:11:34,114 - RAG Application - INFO - Evaluating sample 4/14
+2025-05-24 14:12:22,203 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-24 14:12:34,218 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-24 14:12:34,219 - RAG Application - INFO - Evaluating sample 5/14
+2025-05-24 14:13:27,697 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.0}
+2025-05-24 14:13:39,707 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-24 14:13:39,709 - RAG Application - INFO - Evaluating sample 6/14
+2025-05-24 14:14:30,154 - RAG Application - INFO - Sample 6: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-24 14:14:42,155 - RAG Application - INFO - Added delay in llm call for question 6
+2025-05-24 14:14:42,155 - RAG Application - INFO - Evaluating sample 7/14
+2025-05-24 14:15:44,751 - RAG Application - INFO - Sample 7: Score = {'llm_context_precision_with_reference': 0.9166666666361111}
+2025-05-24 14:15:56,757 - RAG Application - INFO - Added delay in llm call for question 7
+2025-05-24 14:15:56,759 - RAG Application - INFO - Evaluating sample 8/14
+2025-05-24 14:16:48,888 - RAG Application - INFO - Sample 8: Score = {'llm_context_precision_with_reference': 0.99999999995}
+2025-05-24 14:17:00,896 - RAG Application - INFO - Added delay in llm call for question 8
+2025-05-24 14:17:00,896 - RAG Application - INFO - Evaluating sample 9/14
+2025-05-24 14:17:45,969 - RAG Application - INFO - Sample 9: Score = {'llm_context_precision_with_reference': 0.999999999975}
+2025-05-24 14:17:57,972 - RAG Application - INFO - Added delay in llm call for question 9
+2025-05-24 14:17:57,972 - RAG Application - INFO - Evaluating sample 10/14
+2025-05-24 14:18:50,855 - RAG Application - INFO - Sample 10: Score = {'llm_context_precision_with_reference': 0.0}
+2025-05-24 14:19:02,863 - RAG Application - INFO - Added delay in llm call for question 10
+2025-05-24 14:19:02,863 - RAG Application - INFO - Evaluating sample 11/14
+2025-05-24 14:19:52,222 - RAG Application - INFO - Sample 11: Score = {'llm_context_precision_with_reference': 0.5888888888692593}
+2025-05-24 14:20:04,231 - RAG Application - INFO - Added delay in llm call for question 11
+2025-05-24 14:20:04,233 - RAG Application - INFO - Evaluating sample 12/14
+2025-05-24 14:20:54,965 - RAG Application - INFO - Sample 12: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-24 14:21:06,968 - RAG Application - INFO - Added delay in llm call for question 12
+2025-05-24 14:21:06,968 - RAG Application - INFO - Evaluating sample 13/14
+2025-05-24 14:22:02,751 - RAG Application - INFO - Sample 13: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-24 14:22:14,756 - RAG Application - INFO - Added delay in llm call for question 13
+2025-05-24 14:22:14,756 - RAG Application - INFO - Evaluating sample 14/14
+2025-05-24 14:23:05,820 - RAG Application - INFO - Sample 14: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-24 14:23:17,833 - RAG Application - INFO - Added delay in llm call for question 14
+2025-05-24 14:23:17,836 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-24 14:23:17,836 - RAG Application - INFO - Context Precision: nan
+2025-05-24 14:23:17,836 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,836 - RAG Application - INFO - Question 2: Where is DRAIL laboratory located at?
+2025-05-24 14:23:17,836 - RAG Application - INFO - Context Precision: 0.6999999999766667
+2025-05-24 14:23:17,839 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,839 - RAG Application - INFO - Question 3: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-24 14:23:17,839 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-24 14:23:17,839 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,840 - RAG Application - INFO - Question 4: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-24 14:23:17,841 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-24 14:23:17,841 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,841 - RAG Application - INFO - Question 5: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-05-24 14:23:17,841 - RAG Application - INFO - Context Precision: 0.0
+2025-05-24 14:23:17,843 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,843 - RAG Application - INFO - Question 6: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-05-24 14:23:17,844 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-24 14:23:17,844 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,845 - RAG Application - INFO - Question 7: What are Stephen Ramsey's research areas?
+2025-05-24 14:23:17,846 - RAG Application - INFO - Context Precision: 0.9166666666361111
+2025-05-24 14:23:17,846 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,847 - RAG Application - INFO - Question 8: What research areas does Lizhong Chen focus on?
+
+2025-05-24 14:23:17,847 - RAG Application - INFO - Context Precision: 0.99999999995
+2025-05-24 14:23:17,847 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,850 - RAG Application - INFO - Question 9: Who runs the Charisma lab?
+
+2025-05-24 14:23:17,850 - RAG Application - INFO - Context Precision: 0.999999999975
+2025-05-24 14:23:17,850 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,850 - RAG Application - INFO - Question 10: How many robotics groups are present ?
+
+2025-05-24 14:23:17,850 - RAG Application - INFO - Context Precision: 0.0
+2025-05-24 14:23:17,850 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,853 - RAG Application - INFO - Question 11: Can you tell me about the information processing group
+
+2025-05-24 14:23:17,853 - RAG Application - INFO - Context Precision: 0.5888888888692593
+2025-05-24 14:23:17,855 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,855 - RAG Application - INFO - Question 12: Has anyone worked on negative effects of AI?
+
+2025-05-24 14:23:17,855 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-24 14:23:17,855 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,855 - RAG Application - INFO - Question 13: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-24 14:23:17,858 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-24 14:23:17,858 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,858 - RAG Application - INFO - Question 14: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-24 14:23:17,861 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-24 14:23:17,862 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:23:17,864 - RAG Application - INFO - Average Context Precision score for chroma_metadata_reranker: 0.7850427350220799
+2025-05-24 14:23:18,016 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\mpnet_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-24 14:23:18,327 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-24 14:24:18,333 - RAG Application - INFO - Running context recall evaluation for method: faiss_reranker
+2025-05-24 14:24:18,349 - RAG Application - INFO - Evaluating sample 1/14
+2025-05-24 14:24:20,971 - RAG Application - INFO - Sample 1: Score = {'context_recall': 1.0}
+2025-05-24 14:24:32,983 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-24 14:24:32,985 - RAG Application - INFO - Evaluating sample 2/14
+2025-05-24 14:24:34,196 - RAG Application - INFO - Sample 2: Score = {'context_recall': 1.0}
+2025-05-24 14:24:46,198 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-24 14:24:46,198 - RAG Application - INFO - Evaluating sample 3/14
+2025-05-24 14:24:48,481 - RAG Application - INFO - Sample 3: Score = {'context_recall': 0.0}
+2025-05-24 14:25:00,481 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-24 14:25:00,483 - RAG Application - INFO - Evaluating sample 4/14
+2025-05-24 14:25:01,622 - RAG Application - INFO - Sample 4: Score = {'context_recall': 1.0}
+2025-05-24 14:25:13,625 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-24 14:25:13,627 - RAG Application - INFO - Evaluating sample 5/14
+2025-05-24 14:25:25,282 - RAG Application - INFO - Sample 5: Score = {'context_recall': 0.0}
+2025-05-24 14:25:37,285 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-24 14:25:37,287 - RAG Application - INFO - Evaluating sample 6/14
+2025-05-24 14:25:55,812 - RAG Application - INFO - Sample 6: Score = {'context_recall': 1.0}
+2025-05-24 14:26:07,822 - RAG Application - INFO - Added delay in llm call for question 6
+2025-05-24 14:26:07,822 - RAG Application - INFO - Evaluating sample 7/14
+2025-05-24 14:26:13,079 - RAG Application - INFO - Sample 7: Score = {'context_recall': 0.0}
+2025-05-24 14:26:25,089 - RAG Application - INFO - Added delay in llm call for question 7
+2025-05-24 14:26:25,089 - RAG Application - INFO - Evaluating sample 8/14
+2025-05-24 14:26:39,399 - RAG Application - INFO - Sample 8: Score = {'context_recall': 0.14285714285714285}
+2025-05-24 14:26:51,403 - RAG Application - INFO - Added delay in llm call for question 8
+2025-05-24 14:26:51,403 - RAG Application - INFO - Evaluating sample 9/14
+2025-05-24 14:27:06,793 - RAG Application - INFO - Sample 9: Score = {'context_recall': 1.0}
+2025-05-24 14:27:18,797 - RAG Application - INFO - Added delay in llm call for question 9
+2025-05-24 14:27:18,799 - RAG Application - INFO - Evaluating sample 10/14
+2025-05-24 14:27:36,683 - RAG Application - INFO - Sample 10: Score = {'context_recall': 0.0}
+2025-05-24 14:27:48,684 - RAG Application - INFO - Added delay in llm call for question 10
+2025-05-24 14:27:48,684 - RAG Application - INFO - Evaluating sample 11/14
+2025-05-24 14:28:00,607 - RAG Application - INFO - Sample 11: Score = {'context_recall': 0.2}
+2025-05-24 14:28:12,619 - RAG Application - INFO - Added delay in llm call for question 11
+2025-05-24 14:28:12,619 - RAG Application - INFO - Evaluating sample 12/14
+2025-05-24 14:28:28,397 - RAG Application - INFO - Sample 12: Score = {'context_recall': 1.0}
+2025-05-24 14:28:40,398 - RAG Application - INFO - Added delay in llm call for question 12
+2025-05-24 14:28:40,400 - RAG Application - INFO - Evaluating sample 13/14
+2025-05-24 14:28:57,326 - RAG Application - INFO - Sample 13: Score = {'context_recall': 0.0}
+2025-05-24 14:29:09,336 - RAG Application - INFO - Added delay in llm call for question 13
+2025-05-24 14:29:09,336 - RAG Application - INFO - Evaluating sample 14/14
+2025-05-24 14:29:21,555 - RAG Application - INFO - Sample 14: Score = {'context_recall': 0.7142857142857143}
+2025-05-24 14:29:33,560 - RAG Application - INFO - Added delay in llm call for question 14
+2025-05-24 14:29:33,560 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-24 14:29:33,564 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:29:33,564 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,564 - RAG Application - INFO - Question 2: Where is DRAIL laboratory located at?
+2025-05-24 14:29:33,564 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:29:33,564 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,568 - RAG Application - INFO - Question 3: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-24 14:29:33,568 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:29:33,570 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,570 - RAG Application - INFO - Question 4: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-24 14:29:33,570 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:29:33,570 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,570 - RAG Application - INFO - Question 5: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-05-24 14:29:33,570 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:29:33,570 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,570 - RAG Application - INFO - Question 6: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-05-24 14:29:33,570 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:29:33,576 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,576 - RAG Application - INFO - Question 7: What are Stephen Ramsey's research areas?
+2025-05-24 14:29:33,576 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:29:33,576 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,576 - RAG Application - INFO - Question 8: What research areas does Lizhong Chen focus on?
+
+2025-05-24 14:29:33,576 - RAG Application - INFO - Context Recall: 0.14285714285714285
+2025-05-24 14:29:33,576 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,576 - RAG Application - INFO - Question 9: Who runs the Charisma lab?
+
+2025-05-24 14:29:33,576 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:29:33,576 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,576 - RAG Application - INFO - Question 10: How many robotics groups are present ?
+
+2025-05-24 14:29:33,576 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:29:33,576 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,576 - RAG Application - INFO - Question 11: Can you tell me about the information processing group
+
+2025-05-24 14:29:33,585 - RAG Application - INFO - Context Recall: 0.2
+2025-05-24 14:29:33,585 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,585 - RAG Application - INFO - Question 12: Has anyone worked on negative effects of AI?
+
+2025-05-24 14:29:33,585 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:29:33,585 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,585 - RAG Application - INFO - Question 13: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-24 14:29:33,591 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:29:33,591 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,591 - RAG Application - INFO - Question 14: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-24 14:29:33,591 - RAG Application - INFO - Context Recall: 0.7142857142857143
+2025-05-24 14:29:33,591 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:29:33,591 - RAG Application - INFO - Average Context Recall score for faiss_reranker: 0.5040816326530612
+2025-05-24 14:29:33,813 - RAG Application - INFO - Context Recall evaluation results saved to sheet 'context_recall_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\mpnet_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-24 14:29:34,213 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-24 14:30:34,221 - RAG Application - INFO - Running context recall evaluation for method: chroma_metadata
+2025-05-24 14:30:34,268 - RAG Application - INFO - Evaluating sample 1/14
+2025-05-24 14:30:36,434 - RAG Application - INFO - Sample 1: Score = {'context_recall': 0.0}
+2025-05-24 14:30:48,442 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-24 14:30:48,442 - RAG Application - INFO - Evaluating sample 2/14
+2025-05-24 14:30:49,577 - RAG Application - INFO - Sample 2: Score = {'context_recall': 0.0}
+2025-05-24 14:31:01,580 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-24 14:31:01,580 - RAG Application - INFO - Evaluating sample 3/14
+2025-05-24 14:31:03,885 - RAG Application - INFO - Sample 3: Score = {'context_recall': 0.375}
+2025-05-24 14:31:15,900 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-24 14:31:15,900 - RAG Application - INFO - Evaluating sample 4/14
+2025-05-24 14:31:17,072 - RAG Application - INFO - Sample 4: Score = {'context_recall': 0.0}
+2025-05-24 14:31:29,077 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-24 14:31:29,077 - RAG Application - INFO - Evaluating sample 5/14
+2025-05-24 14:32:14,966 - RAG Application - INFO - Sample 5: Score = {'context_recall': nan}
+2025-05-24 14:32:26,975 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-24 14:32:26,975 - RAG Application - INFO - Evaluating sample 6/14
+2025-05-24 14:32:37,502 - RAG Application - INFO - Sample 6: Score = {'context_recall': 1.0}
+2025-05-24 14:32:49,508 - RAG Application - INFO - Added delay in llm call for question 6
+2025-05-24 14:32:49,508 - RAG Application - INFO - Evaluating sample 7/14
+2025-05-24 14:32:59,762 - RAG Application - INFO - Sample 7: Score = {'context_recall': 0.0}
+2025-05-24 14:33:11,769 - RAG Application - INFO - Added delay in llm call for question 7
+2025-05-24 14:33:11,770 - RAG Application - INFO - Evaluating sample 8/14
+2025-05-24 14:33:25,881 - RAG Application - INFO - Sample 8: Score = {'context_recall': 0.0}
+2025-05-24 14:33:37,895 - RAG Application - INFO - Added delay in llm call for question 8
+2025-05-24 14:33:37,895 - RAG Application - INFO - Evaluating sample 9/14
+2025-05-24 14:33:46,113 - RAG Application - INFO - Sample 9: Score = {'context_recall': 1.0}
+2025-05-24 14:33:58,122 - RAG Application - INFO - Added delay in llm call for question 9
+2025-05-24 14:33:58,123 - RAG Application - INFO - Evaluating sample 10/14
+2025-05-24 14:34:14,778 - RAG Application - INFO - Sample 10: Score = {'context_recall': 0.0}
+2025-05-24 14:34:26,785 - RAG Application - INFO - Added delay in llm call for question 10
+2025-05-24 14:34:26,787 - RAG Application - INFO - Evaluating sample 11/14
+2025-05-24 14:34:38,656 - RAG Application - INFO - Sample 11: Score = {'context_recall': 0.0}
+2025-05-24 14:34:50,661 - RAG Application - INFO - Added delay in llm call for question 11
+2025-05-24 14:34:50,661 - RAG Application - INFO - Evaluating sample 12/14
+2025-05-24 14:34:58,281 - RAG Application - INFO - Sample 12: Score = {'context_recall': 0.5}
+2025-05-24 14:35:10,290 - RAG Application - INFO - Added delay in llm call for question 12
+2025-05-24 14:35:10,290 - RAG Application - INFO - Evaluating sample 13/14
+2025-05-24 14:35:23,959 - RAG Application - INFO - Sample 13: Score = {'context_recall': 0.0}
+2025-05-24 14:35:35,966 - RAG Application - INFO - Added delay in llm call for question 13
+2025-05-24 14:35:35,966 - RAG Application - INFO - Evaluating sample 14/14
+2025-05-24 14:35:48,070 - RAG Application - INFO - Sample 14: Score = {'context_recall': 0.0}
+2025-05-24 14:36:00,071 - RAG Application - INFO - Added delay in llm call for question 14
+2025-05-24 14:36:00,075 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-24 14:36:00,075 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:36:00,075 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,075 - RAG Application - INFO - Question 2: Where is DRAIL laboratory located at?
+2025-05-24 14:36:00,075 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:36:00,075 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,075 - RAG Application - INFO - Question 3: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-24 14:36:00,081 - RAG Application - INFO - Context Recall: 0.375
+2025-05-24 14:36:00,081 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,083 - RAG Application - INFO - Question 4: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-24 14:36:00,083 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:36:00,083 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,085 - RAG Application - INFO - Question 5: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-05-24 14:36:00,085 - RAG Application - INFO - Context Recall: nan
+2025-05-24 14:36:00,085 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,085 - RAG Application - INFO - Question 6: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-05-24 14:36:00,085 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:36:00,090 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,091 - RAG Application - INFO - Question 7: What are Stephen Ramsey's research areas?
+2025-05-24 14:36:00,091 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:36:00,091 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,091 - RAG Application - INFO - Question 8: What research areas does Lizhong Chen focus on?
+
+2025-05-24 14:36:00,091 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:36:00,091 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,091 - RAG Application - INFO - Question 9: Who runs the Charisma lab?
+
+2025-05-24 14:36:00,091 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:36:00,091 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,091 - RAG Application - INFO - Question 10: How many robotics groups are present ?
+
+2025-05-24 14:36:00,091 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:36:00,091 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,091 - RAG Application - INFO - Question 11: Can you tell me about the information processing group
+
+2025-05-24 14:36:00,100 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:36:00,101 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,101 - RAG Application - INFO - Question 12: Has anyone worked on negative effects of AI?
+
+2025-05-24 14:36:00,101 - RAG Application - INFO - Context Recall: 0.5
+2025-05-24 14:36:00,101 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,105 - RAG Application - INFO - Question 13: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-24 14:36:00,105 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:36:00,107 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,107 - RAG Application - INFO - Question 14: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-24 14:36:00,107 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:36:00,107 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:36:00,111 - RAG Application - INFO - Average Context Recall score for chroma_metadata: 0.22115384615384615
+2025-05-24 14:36:00,341 - RAG Application - INFO - Context Recall evaluation results saved to sheet 'context_recall_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\mpnet_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-24 14:36:00,749 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-24 14:37:00,757 - RAG Application - INFO - Running context recall evaluation for method: chroma_metadata_reranker
+2025-05-24 14:37:00,781 - RAG Application - INFO - Evaluating sample 1/14
+2025-05-24 14:37:03,219 - RAG Application - INFO - Sample 1: Score = {'context_recall': 0.8333333333333334}
+2025-05-24 14:37:15,229 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-24 14:37:15,231 - RAG Application - INFO - Evaluating sample 2/14
+2025-05-24 14:37:16,536 - RAG Application - INFO - Sample 2: Score = {'context_recall': 0.6666666666666666}
+2025-05-24 14:37:28,538 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-24 14:37:28,538 - RAG Application - INFO - Evaluating sample 3/14
+2025-05-24 14:38:43,706 - RAG Application - INFO - Sample 3: Score = {'context_recall': nan}
+2025-05-24 14:38:55,713 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-24 14:38:55,713 - RAG Application - INFO - Evaluating sample 4/14
+2025-05-24 14:39:04,003 - RAG Application - INFO - Sample 4: Score = {'context_recall': 1.0}
+2025-05-24 14:39:16,006 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-24 14:39:16,006 - RAG Application - INFO - Evaluating sample 5/14
+2025-05-24 14:39:26,574 - RAG Application - INFO - Sample 5: Score = {'context_recall': 0.0}
+2025-05-24 14:39:38,577 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-24 14:39:38,577 - RAG Application - INFO - Evaluating sample 6/14
+2025-05-24 14:39:53,144 - RAG Application - INFO - Sample 6: Score = {'context_recall': 1.0}
+2025-05-24 14:40:05,155 - RAG Application - INFO - Added delay in llm call for question 6
+2025-05-24 14:40:05,157 - RAG Application - INFO - Evaluating sample 7/14
+2025-05-24 14:40:13,038 - RAG Application - INFO - Sample 7: Score = {'context_recall': 0.6}
+2025-05-24 14:40:25,046 - RAG Application - INFO - Added delay in llm call for question 7
+2025-05-24 14:40:25,048 - RAG Application - INFO - Evaluating sample 8/14
+2025-05-24 14:40:39,300 - RAG Application - INFO - Sample 8: Score = {'context_recall': 0.7142857142857143}
+2025-05-24 14:40:51,302 - RAG Application - INFO - Added delay in llm call for question 8
+2025-05-24 14:40:51,303 - RAG Application - INFO - Evaluating sample 9/14
+2025-05-24 14:40:57,915 - RAG Application - INFO - Sample 9: Score = {'context_recall': 0.0}
+2025-05-24 14:41:09,923 - RAG Application - INFO - Added delay in llm call for question 9
+2025-05-24 14:41:09,923 - RAG Application - INFO - Evaluating sample 10/14
+2025-05-24 14:41:24,597 - RAG Application - INFO - Sample 10: Score = {'context_recall': 0.0}
+2025-05-24 14:41:36,604 - RAG Application - INFO - Added delay in llm call for question 10
+2025-05-24 14:41:36,604 - RAG Application - INFO - Evaluating sample 11/14
+2025-05-24 14:41:46,274 - RAG Application - INFO - Sample 11: Score = {'context_recall': 0.0}
+2025-05-24 14:41:58,282 - RAG Application - INFO - Added delay in llm call for question 11
+2025-05-24 14:41:58,282 - RAG Application - INFO - Evaluating sample 12/14
+2025-05-24 14:42:08,236 - RAG Application - INFO - Sample 12: Score = {'context_recall': 0.75}
+2025-05-24 14:42:20,245 - RAG Application - INFO - Added delay in llm call for question 12
+2025-05-24 14:42:20,245 - RAG Application - INFO - Evaluating sample 13/14
+2025-05-24 14:42:37,099 - RAG Application - INFO - Sample 13: Score = {'context_recall': 1.0}
+2025-05-24 14:42:49,100 - RAG Application - INFO - Added delay in llm call for question 13
+2025-05-24 14:42:49,100 - RAG Application - INFO - Evaluating sample 14/14
+2025-05-24 14:42:58,224 - RAG Application - INFO - Sample 14: Score = {'context_recall': 0.5714285714285714}
+2025-05-24 14:43:10,234 - RAG Application - INFO - Added delay in llm call for question 14
+2025-05-24 14:43:10,234 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-24 14:43:10,238 - RAG Application - INFO - Context Recall: 0.8333333333333334
+2025-05-24 14:43:10,238 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,238 - RAG Application - INFO - Question 2: Where is DRAIL laboratory located at?
+2025-05-24 14:43:10,238 - RAG Application - INFO - Context Recall: 0.6666666666666666
+2025-05-24 14:43:10,238 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,238 - RAG Application - INFO - Question 3: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-24 14:43:10,238 - RAG Application - INFO - Context Recall: nan
+2025-05-24 14:43:10,238 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,242 - RAG Application - INFO - Question 4: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-24 14:43:10,242 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:43:10,242 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,242 - RAG Application - INFO - Question 5: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-05-24 14:43:10,242 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:43:10,242 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,242 - RAG Application - INFO - Question 6: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-05-24 14:43:10,242 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:43:10,242 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,242 - RAG Application - INFO - Question 7: What are Stephen Ramsey's research areas?
+2025-05-24 14:43:10,242 - RAG Application - INFO - Context Recall: 0.6
+2025-05-24 14:43:10,242 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,250 - RAG Application - INFO - Question 8: What research areas does Lizhong Chen focus on?
+
+2025-05-24 14:43:10,250 - RAG Application - INFO - Context Recall: 0.7142857142857143
+2025-05-24 14:43:10,250 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,250 - RAG Application - INFO - Question 9: Who runs the Charisma lab?
+
+2025-05-24 14:43:10,250 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:43:10,250 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,250 - RAG Application - INFO - Question 10: How many robotics groups are present ?
+
+2025-05-24 14:43:10,250 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:43:10,250 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,250 - RAG Application - INFO - Question 11: Can you tell me about the information processing group
+
+2025-05-24 14:43:10,250 - RAG Application - INFO - Context Recall: 0.0
+2025-05-24 14:43:10,250 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,250 - RAG Application - INFO - Question 12: Has anyone worked on negative effects of AI?
+
+2025-05-24 14:43:10,250 - RAG Application - INFO - Context Recall: 0.75
+2025-05-24 14:43:10,258 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,259 - RAG Application - INFO - Question 13: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-24 14:43:10,259 - RAG Application - INFO - Context Recall: 1.0
+2025-05-24 14:43:10,261 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,261 - RAG Application - INFO - Question 14: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-24 14:43:10,263 - RAG Application - INFO - Context Recall: 0.5714285714285714
+2025-05-24 14:43:10,263 - RAG Application - INFO - --------------------------------------------------
+2025-05-24 14:43:10,263 - RAG Application - INFO - Average Context Recall score for chroma_metadata_reranker: 0.5489010989010988
+2025-05-24 14:43:10,574 - RAG Application - INFO - Context Recall evaluation results saved to sheet 'context_recall_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\mpnet_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-24 14:43:11,197 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-24 14:44:11,204 - RAG Application - INFO - Running faithfulness evaluation for method: faiss_reranker
+2025-05-24 14:44:11,206 - RAG Application - ERROR - Input file not found: C:\Coding\Projects\osu_eecs_chatbot\production\data\rag_faiss_reranker_results.xlsx
+2025-05-24 14:45:11,220 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata
+2025-05-24 14:45:11,220 - RAG Application - ERROR - Input file not found: C:\Coding\Projects\osu_eecs_chatbot\production\data\rag_chroma_metadata_results.xlsx
+2025-05-25 20:07:31,846 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-25 20:07:31,846 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-25 20:44:09,198 - RAG Application - INFO - Running response relevancy evaluation for method: faiss_reranker
+2025-05-25 20:44:09,215 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 20:44:11,466 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.8764108893148913}
+2025-05-25 20:44:23,482 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 20:44:23,482 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 20:44:24,923 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.5608530111725769}
+2025-05-25 20:44:36,937 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 20:44:36,939 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 20:44:38,872 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-25 20:44:50,879 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 20:44:50,880 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 20:44:52,391 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.9323073238434739}
+2025-05-25 20:45:04,407 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 20:45:04,408 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 20:45:06,298 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.8764888720408989}
+2025-05-25 20:45:18,304 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 20:45:18,304 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 20:45:18,304 - RAG Application - INFO - Answer Relevancy: 0.8764108893148913
+2025-05-25 20:45:18,304 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:45:18,304 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 20:45:18,304 - RAG Application - INFO - Answer Relevancy: 0.5608530111725769
+2025-05-25 20:45:18,304 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:45:18,304 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 20:45:18,304 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-25 20:45:18,314 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:45:18,314 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 20:45:18,315 - RAG Application - INFO - Answer Relevancy: 0.9323073238434739
+2025-05-25 20:45:18,315 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:45:18,316 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 20:45:18,317 - RAG Application - INFO - Answer Relevancy: 0.8764888720408989
+2025-05-25 20:45:18,317 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:45:18,319 - RAG Application - INFO - Average Answer Relevancy score for faiss_reranker: 0.8492120192743455
+2025-05-25 20:45:18,711 - RAG Application - INFO - Results saved to sheet 'response_relevancy_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 20:45:20,022 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-25 20:46:20,036 - RAG Application - INFO - Running response relevancy evaluation for method: chroma_metadata
+2025-05-25 20:46:20,052 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 20:46:21,405 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.4429825960282547}
+2025-05-25 20:46:33,405 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 20:46:33,405 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 20:46:34,799 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.7896095702598811}
+2025-05-25 20:46:46,814 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 20:46:46,816 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 20:46:48,611 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-25 20:47:00,624 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 20:47:00,624 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 20:47:02,591 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.928749740614801}
+2025-05-25 20:47:14,595 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 20:47:14,595 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 20:47:15,963 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.9255238496713716}
+2025-05-25 20:47:27,974 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 20:47:27,974 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 20:47:27,974 - RAG Application - INFO - Answer Relevancy: 0.4429825960282547
+2025-05-25 20:47:27,979 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:47:27,979 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 20:47:27,979 - RAG Application - INFO - Answer Relevancy: 0.7896095702598811
+2025-05-25 20:47:27,979 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:47:27,979 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 20:47:27,979 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-25 20:47:27,979 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:47:27,979 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 20:47:27,979 - RAG Application - INFO - Answer Relevancy: 0.928749740614801
+2025-05-25 20:47:27,984 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:47:27,984 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 20:47:27,984 - RAG Application - INFO - Answer Relevancy: 0.9255238496713716
+2025-05-25 20:47:27,984 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:47:27,984 - RAG Application - INFO - Average Answer Relevancy score for chroma_metadata: 0.8173731513148388
+2025-05-25 20:47:28,469 - RAG Application - INFO - Results saved to sheet 'response_relevancy_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 20:47:29,317 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-25 20:48:29,339 - RAG Application - INFO - Running response relevancy evaluation for method: chroma_metadata_reranker
+2025-05-25 20:48:29,339 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 20:48:31,673 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.9999999999998407}
+2025-05-25 20:48:43,677 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 20:48:43,678 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 20:48:45,486 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.8980470764592242}
+2025-05-25 20:48:57,494 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 20:48:57,496 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 20:48:59,226 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-25 20:49:11,226 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 20:49:11,226 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 20:49:13,128 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.9985831292202748}
+2025-05-25 20:49:25,138 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 20:49:25,138 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 20:49:28,241 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.927944705973245}
+2025-05-25 20:49:40,242 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 20:49:40,242 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 20:49:40,242 - RAG Application - INFO - Answer Relevancy: 0.9999999999998407
+2025-05-25 20:49:40,247 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:49:40,247 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 20:49:40,247 - RAG Application - INFO - Answer Relevancy: 0.8980470764592242
+2025-05-25 20:49:40,247 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:49:40,249 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 20:49:40,249 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-25 20:49:40,251 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:49:40,251 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 20:49:40,252 - RAG Application - INFO - Answer Relevancy: 0.9985831292202748
+2025-05-25 20:49:40,252 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:49:40,254 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 20:49:40,254 - RAG Application - INFO - Answer Relevancy: 0.927944705973245
+2025-05-25 20:49:40,255 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:49:40,257 - RAG Application - INFO - Average Answer Relevancy score for chroma_metadata_reranker: 0.9649149823304942
+2025-05-25 20:49:40,807 - RAG Application - INFO - Results saved to sheet 'response_relevancy_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 20:49:41,524 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-26 20:07:21,943 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:07:21,944 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:07:21,945 - RAG Application - INFO - Running response relevancy evaluation for method: faiss_reranker
+2025-05-26 20:07:21,962 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:07:25,025 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.8829830112949791}
+2025-05-26 20:07:37,031 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:07:37,033 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:07:38,751 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.5608530111725769}
+2025-05-26 20:07:50,753 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:07:50,754 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:07:52,367 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:08:04,369 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:08:04,370 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:08:06,851 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.9286348504218457}
+2025-05-26 20:08:18,863 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:08:18,865 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:08:20,742 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.927944705973245}
+2025-05-26 20:08:32,744 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:08:32,746 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:08:32,746 - RAG Application - INFO - Answer Relevancy: 0.8829830112949791
+2025-05-26 20:08:32,747 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:08:32,748 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:08:32,748 - RAG Application - INFO - Answer Relevancy: 0.5608530111725769
+2025-05-26 20:08:32,749 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:08:32,749 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:08:32,750 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:08:32,750 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:08:32,751 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:08:32,751 - RAG Application - INFO - Answer Relevancy: 0.9286348504218457
+2025-05-26 20:08:32,752 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:08:32,753 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:08:32,753 - RAG Application - INFO - Answer Relevancy: 0.927944705973245
+2025-05-26 20:08:32,754 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:08:32,755 - RAG Application - INFO - Average Answer Relevancy score for faiss_reranker: 0.8600831157725064
+2025-05-26 20:08:33,064 - RAG Application - INFO - Removed existing sheet 'response_relevancy_faiss'
+2025-05-26 20:08:33,387 - RAG Application - INFO - Results saved to sheet 'response_relevancy_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:08:34,023 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-26 20:09:04,457 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:09:04,457 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:09:04,459 - RAG Application - INFO - Running response relevancy evaluation for method: faiss_reranker
+2025-05-26 20:09:04,479 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:09:06,478 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.8829830112949791}
+2025-05-26 20:09:18,489 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:09:18,491 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:09:20,210 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.5608530111725769}
+2025-05-26 20:09:32,216 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:09:32,217 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:09:33,856 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:09:45,868 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:09:45,869 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:09:47,534 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.9286348504218457}
+2025-05-26 20:09:59,539 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:09:59,540 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:10:01,096 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.927944705973245}
+2025-05-26 20:10:13,114 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:10:13,117 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:10:13,117 - RAG Application - INFO - Answer Relevancy: 0.8829830112949791
+2025-05-26 20:10:13,118 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:10:13,118 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:10:13,119 - RAG Application - INFO - Answer Relevancy: 0.5608530111725769
+2025-05-26 20:10:13,119 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:10:13,120 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:10:13,120 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:10:13,121 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:10:13,122 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:10:13,122 - RAG Application - INFO - Answer Relevancy: 0.9286348504218457
+2025-05-26 20:10:13,123 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:10:13,125 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:10:13,126 - RAG Application - INFO - Answer Relevancy: 0.927944705973245
+2025-05-26 20:10:13,127 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:10:13,128 - RAG Application - INFO - Average Answer Relevancy score for faiss_reranker: 0.8600831157725064
+2025-05-26 20:10:13,522 - RAG Application - INFO - Removed existing sheet 'response_relevancy_faiss'
+2025-05-26 20:10:13,985 - RAG Application - INFO - Results saved to sheet 'response_relevancy_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:10:14,618 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-26 20:10:45,042 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:10:45,043 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:10:45,045 - RAG Application - INFO - Running response relevancy evaluation for method: faiss_reranker
+2025-05-26 20:10:45,062 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:10:47,106 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.8829830112949791}
+2025-05-26 20:10:59,113 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:10:59,114 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:11:01,162 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.5608530111725769}
+2025-05-26 20:11:13,166 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:11:13,167 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:11:14,787 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:11:26,794 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:11:26,795 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:11:29,225 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.9286348504218457}
+2025-05-26 20:11:41,239 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:11:41,240 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:11:43,067 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.927944705973245}
+2025-05-26 20:11:55,079 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:11:55,082 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:11:55,083 - RAG Application - INFO - Answer Relevancy: 0.8829830112949791
+2025-05-26 20:11:55,083 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:11:55,084 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:11:55,085 - RAG Application - INFO - Answer Relevancy: 0.5608530111725769
+2025-05-26 20:11:55,085 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:11:55,086 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:11:55,087 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:11:55,087 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:11:55,088 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:11:55,088 - RAG Application - INFO - Answer Relevancy: 0.9286348504218457
+2025-05-26 20:11:55,089 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:11:55,090 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:11:55,090 - RAG Application - INFO - Answer Relevancy: 0.927944705973245
+2025-05-26 20:11:55,091 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:11:55,092 - RAG Application - INFO - Average Answer Relevancy score for faiss_reranker: 0.8600831157725064
+2025-05-26 20:11:55,442 - RAG Application - INFO - Removed existing sheet 'response_relevancy_faiss'
+2025-05-26 20:11:55,807 - RAG Application - INFO - Results saved to sheet 'response_relevancy_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:11:56,570 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-26 20:12:27,096 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:12:27,096 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:12:27,098 - RAG Application - INFO - Running response relevancy evaluation for method: faiss_reranker
+2025-05-26 20:12:27,116 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:12:29,308 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.8829830112949791}
+2025-05-26 20:12:41,310 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:12:41,311 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:12:42,630 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.5608530111725769}
+2025-05-26 20:12:54,638 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:12:54,640 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:12:56,320 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:13:08,324 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:13:08,325 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:13:10,142 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.9286348504218457}
+2025-05-26 20:13:22,156 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:13:22,157 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:13:23,857 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.927944705973245}
+2025-05-26 20:13:35,864 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:13:35,868 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:13:35,869 - RAG Application - INFO - Answer Relevancy: 0.8829830112949791
+2025-05-26 20:13:35,869 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:13:35,870 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:13:35,871 - RAG Application - INFO - Answer Relevancy: 0.5608530111725769
+2025-05-26 20:13:35,871 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:13:35,872 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:13:35,872 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:13:35,873 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:13:35,874 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:13:35,875 - RAG Application - INFO - Answer Relevancy: 0.9286348504218457
+2025-05-26 20:13:35,876 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:13:35,877 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:13:35,877 - RAG Application - INFO - Answer Relevancy: 0.927944705973245
+2025-05-26 20:13:35,878 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:13:35,878 - RAG Application - INFO - Average Answer Relevancy score for faiss_reranker: 0.8600831157725064
+2025-05-26 20:13:36,232 - RAG Application - INFO - Removed existing sheet 'response_relevancy_faiss'
+2025-05-26 20:13:36,592 - RAG Application - INFO - Results saved to sheet 'response_relevancy_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:13:37,540 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-26 20:14:38,305 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:14:38,306 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:14:38,307 - RAG Application - INFO - Running response relevancy evaluation for method: chroma_metadata
+2025-05-26 20:14:38,323 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:14:40,411 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.9999999999998407}
+2025-05-26 20:14:52,417 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:14:52,418 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:14:54,059 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.8899079012244733}
+2025-05-26 20:15:06,070 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:15:06,072 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:15:08,889 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:15:20,899 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:15:20,900 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:15:22,894 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.8874739512902234}
+2025-05-26 20:15:34,901 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:15:34,902 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:15:36,099 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.9258760102052143}
+2025-05-26 20:15:48,115 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:15:48,118 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:15:48,118 - RAG Application - INFO - Answer Relevancy: 0.9999999999998407
+2025-05-26 20:15:48,119 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:15:48,120 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:15:48,120 - RAG Application - INFO - Answer Relevancy: 0.8899079012244733
+2025-05-26 20:15:48,120 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:15:48,121 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:15:48,122 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:15:48,122 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:15:48,123 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:15:48,123 - RAG Application - INFO - Answer Relevancy: 0.8874739512902234
+2025-05-26 20:15:48,124 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:15:48,124 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:15:48,125 - RAG Application - INFO - Answer Relevancy: 0.9258760102052143
+2025-05-26 20:15:48,126 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:15:48,127 - RAG Application - INFO - Average Answer Relevancy score for chroma_metadata: 0.9406515725439275
+2025-05-26 20:15:48,514 - RAG Application - INFO - Removed existing sheet 'response_relevancy_chroma'
+2025-05-26 20:15:48,904 - RAG Application - INFO - Results saved to sheet 'response_relevancy_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:15:49,689 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-26 20:16:20,155 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:16:20,157 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:16:20,162 - RAG Application - INFO - Running response relevancy evaluation for method: chroma_metadata
+2025-05-26 20:16:20,178 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:16:21,485 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.9999999999998407}
+2025-05-26 20:16:33,492 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:16:33,493 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:16:35,005 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.8899079012244733}
+2025-05-26 20:16:47,007 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:16:47,009 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:16:49,117 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:17:01,128 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:17:01,129 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:17:02,660 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.8874739512902234}
+2025-05-26 20:17:14,676 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:17:14,677 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:17:15,922 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.9258760102052143}
+2025-05-26 20:17:27,929 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:17:27,931 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:17:27,931 - RAG Application - INFO - Answer Relevancy: 0.9999999999998407
+2025-05-26 20:17:27,932 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:17:27,932 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:17:27,933 - RAG Application - INFO - Answer Relevancy: 0.8899079012244733
+2025-05-26 20:17:27,933 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:17:27,934 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:17:27,935 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:17:27,935 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:17:27,937 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:17:27,937 - RAG Application - INFO - Answer Relevancy: 0.8874739512902234
+2025-05-26 20:17:27,938 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:17:27,940 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:17:27,941 - RAG Application - INFO - Answer Relevancy: 0.9258760102052143
+2025-05-26 20:17:27,943 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:17:27,944 - RAG Application - INFO - Average Answer Relevancy score for chroma_metadata: 0.9406515725439275
+2025-05-26 20:17:28,262 - RAG Application - INFO - Removed existing sheet 'response_relevancy_chroma'
+2025-05-26 20:17:28,569 - RAG Application - INFO - Results saved to sheet 'response_relevancy_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:17:29,199 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-26 20:17:59,673 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:17:59,673 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:17:59,674 - RAG Application - INFO - Running response relevancy evaluation for method: chroma_metadata
+2025-05-26 20:17:59,690 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:18:00,915 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.9999999999998407}
+2025-05-26 20:18:12,930 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:18:12,931 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:18:16,227 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.8899079012244733}
+2025-05-26 20:18:28,231 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:18:28,232 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:18:29,731 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:18:41,736 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:18:41,737 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:18:46,045 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.8874739512902234}
+2025-05-26 20:18:58,060 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:18:58,062 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:18:59,228 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.9258760102052143}
+2025-05-26 20:19:11,230 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:19:11,233 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:19:11,233 - RAG Application - INFO - Answer Relevancy: 0.9999999999998407
+2025-05-26 20:19:11,234 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:19:11,235 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:19:11,235 - RAG Application - INFO - Answer Relevancy: 0.8899079012244733
+2025-05-26 20:19:11,235 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:19:11,236 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:19:11,236 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:19:11,237 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:19:11,237 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:19:11,238 - RAG Application - INFO - Answer Relevancy: 0.8874739512902234
+2025-05-26 20:19:11,238 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:19:11,238 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:19:11,240 - RAG Application - INFO - Answer Relevancy: 0.9258760102052143
+2025-05-26 20:19:11,240 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:19:11,240 - RAG Application - INFO - Average Answer Relevancy score for chroma_metadata: 0.9406515725439275
+2025-05-26 20:19:11,512 - RAG Application - INFO - Removed existing sheet 'response_relevancy_chroma'
+2025-05-26 20:19:11,801 - RAG Application - INFO - Results saved to sheet 'response_relevancy_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:19:12,388 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-26 20:19:42,895 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:19:42,896 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:19:42,898 - RAG Application - INFO - Running response relevancy evaluation for method: chroma_metadata
+2025-05-26 20:19:42,911 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:19:44,297 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.9999999999998407}
+2025-05-26 20:19:56,298 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:19:56,299 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:19:57,675 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.8899079012244733}
+2025-05-26 20:20:09,681 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:20:09,682 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:20:10,882 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:20:22,889 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:20:22,890 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:20:24,073 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.8874739512902234}
+2025-05-26 20:20:36,082 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:20:36,082 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:20:37,699 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.9258760102052143}
+2025-05-26 20:20:49,715 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:20:49,716 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:20:49,716 - RAG Application - INFO - Answer Relevancy: 0.9999999999998407
+2025-05-26 20:20:49,716 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:20:49,718 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:20:49,718 - RAG Application - INFO - Answer Relevancy: 0.8899079012244733
+2025-05-26 20:20:49,719 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:20:49,719 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:20:49,720 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:20:49,720 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:20:49,721 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:20:49,721 - RAG Application - INFO - Answer Relevancy: 0.8874739512902234
+2025-05-26 20:20:49,721 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:20:49,722 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:20:49,722 - RAG Application - INFO - Answer Relevancy: 0.9258760102052143
+2025-05-26 20:20:49,723 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:20:49,723 - RAG Application - INFO - Average Answer Relevancy score for chroma_metadata: 0.9406515725439275
+2025-05-26 20:20:49,998 - RAG Application - INFO - Removed existing sheet 'response_relevancy_chroma'
+2025-05-26 20:20:51,193 - RAG Application - INFO - Results saved to sheet 'response_relevancy_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:20:51,733 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-26 20:21:52,259 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:21:52,260 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:21:52,260 - RAG Application - INFO - Running response relevancy evaluation for method: chroma_metadata_reranker
+2025-05-26 20:21:52,288 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:21:53,972 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.8764108893148913}
+2025-05-26 20:22:05,977 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:22:05,978 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:22:07,354 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.8980470764592242}
+2025-05-26 20:22:19,365 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:22:19,365 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:22:20,952 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:22:32,954 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:22:32,955 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:22:34,161 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.9973278619218243}
+2025-05-26 20:22:46,169 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:22:46,170 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:22:47,382 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.9258760102052143}
+2025-05-26 20:22:59,390 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:22:59,393 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:22:59,393 - RAG Application - INFO - Answer Relevancy: 0.8764108893148913
+2025-05-26 20:22:59,393 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:22:59,395 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:22:59,395 - RAG Application - INFO - Answer Relevancy: 0.8980470764592242
+2025-05-26 20:22:59,395 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:22:59,396 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:22:59,396 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:22:59,397 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:22:59,397 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:22:59,398 - RAG Application - INFO - Answer Relevancy: 0.9973278619218243
+2025-05-26 20:22:59,398 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:22:59,399 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:22:59,399 - RAG Application - INFO - Answer Relevancy: 0.9258760102052143
+2025-05-26 20:22:59,400 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:22:59,400 - RAG Application - INFO - Average Answer Relevancy score for chroma_metadata_reranker: 0.9395323675802081
+2025-05-26 20:22:59,678 - RAG Application - INFO - Removed existing sheet 'response_relevancy_chroma_rerank'
+2025-05-26 20:22:59,947 - RAG Application - INFO - Results saved to sheet 'response_relevancy_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:23:00,493 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-26 20:23:30,988 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:23:30,988 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:23:30,989 - RAG Application - INFO - Running response relevancy evaluation for method: chroma_metadata_reranker
+2025-05-26 20:23:31,002 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:23:32,375 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.8764108893148913}
+2025-05-26 20:23:44,381 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:23:44,381 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:23:45,530 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.8980470764592242}
+2025-05-26 20:23:57,542 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:23:57,543 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:24:03,580 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:24:15,591 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:24:15,592 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:24:16,744 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.9973278619218243}
+2025-05-26 20:24:28,759 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:24:28,759 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:24:29,700 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.9258760102052143}
+2025-05-26 20:24:41,703 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:24:41,704 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:24:41,705 - RAG Application - INFO - Answer Relevancy: 0.8764108893148913
+2025-05-26 20:24:41,705 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:24:41,706 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:24:41,706 - RAG Application - INFO - Answer Relevancy: 0.8980470764592242
+2025-05-26 20:24:41,706 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:24:41,707 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:24:41,707 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:24:41,708 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:24:41,708 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:24:41,709 - RAG Application - INFO - Answer Relevancy: 0.9973278619218243
+2025-05-26 20:24:41,709 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:24:41,709 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:24:41,709 - RAG Application - INFO - Answer Relevancy: 0.9258760102052143
+2025-05-26 20:24:41,711 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:24:41,711 - RAG Application - INFO - Average Answer Relevancy score for chroma_metadata_reranker: 0.9395323675802081
+2025-05-26 20:24:41,949 - RAG Application - INFO - Removed existing sheet 'response_relevancy_chroma_rerank'
+2025-05-26 20:24:42,189 - RAG Application - INFO - Results saved to sheet 'response_relevancy_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:24:42,677 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-26 20:25:13,175 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:25:13,176 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:25:13,177 - RAG Application - INFO - Running response relevancy evaluation for method: chroma_metadata_reranker
+2025-05-26 20:25:13,190 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:25:14,296 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.8764108893148913}
+2025-05-26 20:25:26,306 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:25:26,306 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:25:27,339 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.8980470764592242}
+2025-05-26 20:25:39,353 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:25:39,353 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:25:40,951 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:25:52,954 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:25:52,954 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:25:53,976 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.9973278619218243}
+2025-05-26 20:26:05,992 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:26:05,992 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:26:07,119 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.9258760102052143}
+2025-05-26 20:26:19,129 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:26:19,130 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:26:19,131 - RAG Application - INFO - Answer Relevancy: 0.8764108893148913
+2025-05-26 20:26:19,131 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:26:19,132 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:26:19,132 - RAG Application - INFO - Answer Relevancy: 0.8980470764592242
+2025-05-26 20:26:19,133 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:26:19,133 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:26:19,134 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:26:19,134 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:26:19,134 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:26:19,135 - RAG Application - INFO - Answer Relevancy: 0.9973278619218243
+2025-05-26 20:26:19,135 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:26:19,136 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:26:19,136 - RAG Application - INFO - Answer Relevancy: 0.9258760102052143
+2025-05-26 20:26:19,136 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:26:19,137 - RAG Application - INFO - Average Answer Relevancy score for chroma_metadata_reranker: 0.9395323675802081
+2025-05-26 20:26:19,373 - RAG Application - INFO - Removed existing sheet 'response_relevancy_chroma_rerank'
+2025-05-26 20:26:19,607 - RAG Application - INFO - Results saved to sheet 'response_relevancy_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:26:20,096 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-26 20:26:50,607 - RAG Application - INFO - Initializing Response Relevancy Evaluator
+2025-05-26 20:26:50,608 - RAG Application - INFO - Response Relevancy Evaluator initialized successfully
+2025-05-26 20:26:50,608 - RAG Application - INFO - Running response relevancy evaluation for method: chroma_metadata_reranker
+2025-05-26 20:26:50,620 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:26:51,997 - RAG Application - INFO - Sample 1: Score = {'answer_relevancy': 0.8764108893148913}
+2025-05-26 20:27:04,007 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:27:04,008 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:27:05,269 - RAG Application - INFO - Sample 2: Score = {'answer_relevancy': 0.8980470764592242}
+2025-05-26 20:27:17,283 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:27:17,283 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:27:18,484 - RAG Application - INFO - Sample 3: Score = {'answer_relevancy': 0.9999999999998858}
+2025-05-26 20:27:30,500 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:27:30,500 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:27:31,489 - RAG Application - INFO - Sample 4: Score = {'answer_relevancy': 0.9973278619218243}
+2025-05-26 20:27:43,499 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:27:43,500 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:27:44,499 - RAG Application - INFO - Sample 5: Score = {'answer_relevancy': 0.9258760102052143}
+2025-05-26 20:27:56,505 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:27:56,506 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:27:56,508 - RAG Application - INFO - Answer Relevancy: 0.8764108893148913
+2025-05-26 20:27:56,508 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:27:56,509 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:27:56,510 - RAG Application - INFO - Answer Relevancy: 0.8980470764592242
+2025-05-26 20:27:56,510 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:27:56,511 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:27:56,511 - RAG Application - INFO - Answer Relevancy: 0.9999999999998858
+2025-05-26 20:27:56,511 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:27:56,512 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:27:56,512 - RAG Application - INFO - Answer Relevancy: 0.9973278619218243
+2025-05-26 20:27:56,514 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:27:56,514 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:27:56,515 - RAG Application - INFO - Answer Relevancy: 0.9258760102052143
+2025-05-26 20:27:56,515 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:27:56,516 - RAG Application - INFO - Average Answer Relevancy score for chroma_metadata_reranker: 0.9395323675802081
+2025-05-26 20:27:56,761 - RAG Application - INFO - Removed existing sheet 'response_relevancy_chroma_rerank'
+2025-05-26 20:27:56,999 - RAG Application - INFO - Results saved to sheet 'response_relevancy_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:27:57,468 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker

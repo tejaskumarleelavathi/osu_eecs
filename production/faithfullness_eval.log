@@ -1,0 +1,560 @@
+2025-05-09 10:27:56,864 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-09 10:33:48,219 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-09 11:43:01,142 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-10 00:19:05,551 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-10 00:19:05,551 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-23 21:39:44,694 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-23 21:39:44,695 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-24 13:38:29,907 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-24 13:38:29,907 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-25 20:07:31,834 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-25 20:07:31,834 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-25 20:33:40,666 - RAG Application - INFO - Running faithfulness evaluation for method: faiss_reranker
+2025-05-25 20:33:40,674 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 20:33:44,451 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-25 20:33:56,458 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 20:33:56,458 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 20:34:05,356 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.15384615384615385}
+2025-05-25 20:34:17,364 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 20:34:17,364 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 20:34:39,924 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-25 20:34:51,935 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 20:34:51,935 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 20:35:21,637 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 0.7692307692307693}
+2025-05-25 20:35:33,640 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 20:35:33,641 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 20:35:56,877 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.7777777777777778}
+2025-05-25 20:36:08,885 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 20:36:08,885 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 20:36:08,885 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-25 20:36:08,885 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:36:08,885 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 20:36:08,885 - RAG Application - INFO - Faithfulness: 0.15384615384615385
+2025-05-25 20:36:08,885 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:36:08,885 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 20:36:08,885 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-25 20:36:08,893 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:36:08,893 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 20:36:08,893 - RAG Application - INFO - Faithfulness: 0.7692307692307693
+2025-05-25 20:36:08,893 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:36:08,893 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 20:36:08,893 - RAG Application - INFO - Faithfulness: 0.7777777777777778
+2025-05-25 20:36:08,893 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:36:08,893 - RAG Application - INFO - Average Faithfulness score for faiss_reranker: 0.7401709401709401
+2025-05-25 20:36:09,156 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 20:36:09,650 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-25 20:37:09,664 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata
+2025-05-25 20:37:09,672 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 20:37:11,843 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-25 20:37:23,859 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 20:37:23,860 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 20:37:29,910 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.6956521739130435}
+2025-05-25 20:37:41,913 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 20:37:41,913 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 20:37:58,313 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-25 20:38:10,324 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 20:38:10,324 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 20:38:37,852 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 0.45454545454545453}
+2025-05-25 20:38:49,860 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 20:38:49,860 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 20:39:11,393 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.75}
+2025-05-25 20:39:23,399 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 20:39:23,399 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 20:39:23,399 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-25 20:39:23,404 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:39:23,404 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 20:39:23,404 - RAG Application - INFO - Faithfulness: 0.6956521739130435
+2025-05-25 20:39:23,404 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:39:23,404 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 20:39:23,407 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-25 20:39:23,407 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:39:23,408 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 20:39:23,408 - RAG Application - INFO - Faithfulness: 0.45454545454545453
+2025-05-25 20:39:23,408 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:39:23,408 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 20:39:23,408 - RAG Application - INFO - Faithfulness: 0.75
+2025-05-25 20:39:23,411 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:39:23,411 - RAG Application - INFO - Average Faithfulness score for chroma_metadata: 0.7800395256916997
+2025-05-25 20:39:23,736 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 20:39:24,291 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-25 20:40:24,297 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata_reranker
+2025-05-25 20:40:24,310 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 20:40:27,258 - RAG Application - INFO - Sample 1: Score = {'faithfulness': nan}
+2025-05-25 20:40:39,273 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 20:40:39,273 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 20:40:44,702 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 1.0}
+2025-05-25 20:40:56,712 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 20:40:56,712 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 20:41:15,187 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-25 20:41:27,206 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 20:41:27,206 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 20:41:52,741 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 1.0}
+2025-05-25 20:42:04,747 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 20:42:04,747 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 20:42:56,235 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.75}
+2025-05-25 20:43:08,236 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 20:43:08,236 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 20:43:08,236 - RAG Application - INFO - Faithfulness: nan
+2025-05-25 20:43:08,236 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:43:08,236 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 20:43:08,241 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-25 20:43:08,241 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:43:08,241 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 20:43:08,241 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-25 20:43:08,245 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:43:08,245 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 20:43:08,245 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-25 20:43:08,245 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:43:08,245 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 20:43:08,245 - RAG Application - INFO - Faithfulness: 0.75
+2025-05-25 20:43:08,245 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:43:08,245 - RAG Application - INFO - Average Faithfulness score for chroma_metadata_reranker: 0.9375
+2025-05-25 20:43:08,591 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 20:43:09,195 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-26 19:30:38,442 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 19:30:38,442 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 19:30:38,443 - RAG Application - INFO - Running faithfulness evaluation for method: faiss_reranker
+2025-05-26 19:30:38,478 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 19:30:40,930 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 19:30:52,945 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 19:30:52,948 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 19:30:58,085 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.0}
+2025-05-26 19:31:10,090 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 19:31:10,092 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 19:31:29,155 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 19:31:41,166 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 19:31:41,168 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 19:32:06,266 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 0.75}
+2025-05-26 19:32:18,268 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 19:32:18,269 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 19:32:41,422 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 1.0}
+2025-05-26 19:32:53,424 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 19:32:53,436 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 19:32:53,437 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:32:53,438 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:32:53,438 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 19:32:53,439 - RAG Application - INFO - Faithfulness: 0.0
+2025-05-26 19:32:53,439 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:32:53,441 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 19:32:53,441 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:32:53,442 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:32:53,442 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 19:32:53,443 - RAG Application - INFO - Faithfulness: 0.75
+2025-05-26 19:32:53,445 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:32:53,445 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 19:32:53,446 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:32:53,446 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:32:53,447 - RAG Application - INFO - Average Faithfulness score for faiss_reranker: 0.75
+2025-05-26 19:32:54,174 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 19:32:55,240 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-26 19:33:25,316 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 19:33:25,317 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 19:33:25,318 - RAG Application - INFO - Running faithfulness evaluation for method: faiss_reranker
+2025-05-26 19:33:25,335 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 19:33:27,058 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 19:33:39,069 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 19:33:39,071 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 19:34:01,328 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.0}
+2025-05-26 19:34:13,342 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 19:34:13,343 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 19:34:31,135 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 19:34:43,140 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 19:34:43,141 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 19:35:09,256 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 0.75}
+2025-05-26 19:35:21,270 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 19:35:21,271 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 19:35:44,263 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 1.0}
+2025-05-26 19:35:56,270 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 19:35:56,273 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 19:35:56,274 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:35:56,274 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:35:56,275 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 19:35:56,275 - RAG Application - INFO - Faithfulness: 0.0
+2025-05-26 19:35:56,276 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:35:56,276 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 19:35:56,277 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:35:56,278 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:35:56,278 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 19:35:56,279 - RAG Application - INFO - Faithfulness: 0.75
+2025-05-26 19:35:56,280 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:35:56,280 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 19:35:56,281 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:35:56,282 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:35:56,283 - RAG Application - INFO - Average Faithfulness score for faiss_reranker: 0.75
+2025-05-26 19:35:57,053 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 19:35:57,945 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-26 19:36:28,122 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 19:36:28,130 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 19:36:28,144 - RAG Application - INFO - Running faithfulness evaluation for method: faiss_reranker
+2025-05-26 19:36:28,165 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 19:36:31,003 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 19:36:43,008 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 19:36:43,010 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 19:37:03,410 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.0}
+2025-05-26 19:37:15,422 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 19:37:15,423 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 19:37:36,905 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 19:37:48,915 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 19:37:48,916 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 19:38:12,056 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 0.75}
+2025-05-26 19:38:24,067 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 19:38:24,068 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 19:38:46,995 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 1.0}
+2025-05-26 19:38:59,007 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 19:38:59,010 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 19:38:59,011 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:38:59,012 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:38:59,012 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 19:38:59,013 - RAG Application - INFO - Faithfulness: 0.0
+2025-05-26 19:38:59,013 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:38:59,014 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 19:38:59,015 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:38:59,015 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:38:59,016 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 19:38:59,016 - RAG Application - INFO - Faithfulness: 0.75
+2025-05-26 19:38:59,017 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:38:59,018 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 19:38:59,018 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:38:59,019 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:38:59,020 - RAG Application - INFO - Average Faithfulness score for faiss_reranker: 0.75
+2025-05-26 19:38:59,817 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 19:39:00,624 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-26 19:39:30,766 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 19:39:30,767 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 19:39:30,768 - RAG Application - INFO - Running faithfulness evaluation for method: faiss_reranker
+2025-05-26 19:39:30,786 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 19:39:32,835 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 19:39:44,845 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 19:39:44,847 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 19:40:06,337 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.0}
+2025-05-26 19:40:18,345 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 19:40:18,346 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 19:40:37,289 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 19:40:49,295 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 19:40:49,297 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 19:41:14,695 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 0.75}
+2025-05-26 19:41:26,704 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 19:41:26,706 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 19:41:49,714 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 1.0}
+2025-05-26 19:42:01,729 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 19:42:01,732 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 19:42:01,732 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:42:01,733 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:42:01,733 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 19:42:01,734 - RAG Application - INFO - Faithfulness: 0.0
+2025-05-26 19:42:01,734 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:42:01,734 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 19:42:01,736 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:42:01,736 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:42:01,737 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 19:42:01,737 - RAG Application - INFO - Faithfulness: 0.75
+2025-05-26 19:42:01,737 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:42:01,738 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 19:42:01,738 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:42:01,739 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:42:01,740 - RAG Application - INFO - Average Faithfulness score for faiss_reranker: 0.75
+2025-05-26 19:42:02,579 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 19:42:03,190 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-26 19:43:03,358 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 19:43:03,358 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 19:43:03,359 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata
+2025-05-26 19:43:03,423 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 19:43:04,802 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 19:43:16,810 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 19:43:16,811 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 19:43:21,790 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.625}
+2025-05-26 19:43:33,800 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 19:43:33,801 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 19:43:42,510 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 19:43:54,520 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 19:43:54,521 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 19:44:18,997 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 1.0}
+2025-05-26 19:44:31,000 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 19:44:31,004 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 19:44:52,953 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.875}
+2025-05-26 19:45:04,965 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 19:45:04,968 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 19:45:04,968 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:45:04,969 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:45:04,970 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 19:45:04,970 - RAG Application - INFO - Faithfulness: 0.625
+2025-05-26 19:45:04,971 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:45:04,972 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 19:45:04,972 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:45:04,973 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:45:04,973 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 19:45:04,974 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:45:04,974 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:45:04,975 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 19:45:04,976 - RAG Application - INFO - Faithfulness: 0.875
+2025-05-26 19:45:04,976 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:45:04,977 - RAG Application - INFO - Average Faithfulness score for chroma_metadata: 0.9
+2025-05-26 19:45:05,791 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 19:45:06,598 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-26 19:45:36,834 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 19:45:36,835 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 19:45:36,836 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata
+2025-05-26 19:45:36,855 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 19:45:38,252 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 19:45:50,260 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 19:45:50,262 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 19:46:02,550 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.625}
+2025-05-26 19:46:14,554 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 19:46:14,556 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 19:46:31,190 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 19:46:43,199 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 19:46:43,200 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 19:47:08,559 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 1.0}
+2025-05-26 19:47:20,564 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 19:47:20,565 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 19:47:42,466 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.875}
+2025-05-26 19:47:54,468 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 19:47:54,471 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 19:47:54,471 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:47:54,472 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:47:54,473 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 19:47:54,473 - RAG Application - INFO - Faithfulness: 0.625
+2025-05-26 19:47:54,474 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:47:54,476 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 19:47:54,476 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:47:54,477 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:47:54,478 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 19:47:54,478 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:47:54,479 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:47:54,479 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 19:47:54,480 - RAG Application - INFO - Faithfulness: 0.875
+2025-05-26 19:47:54,481 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:47:54,482 - RAG Application - INFO - Average Faithfulness score for chroma_metadata: 0.9
+2025-05-26 19:47:55,243 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 19:47:56,021 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-26 19:48:26,286 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 19:48:26,287 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 19:48:26,288 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata
+2025-05-26 19:48:26,306 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 19:48:27,747 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 19:48:39,760 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 19:48:39,761 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 19:48:52,090 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.625}
+2025-05-26 19:49:04,099 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 19:49:04,100 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 19:49:21,785 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 19:49:33,796 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 19:49:33,797 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 19:49:57,952 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 1.0}
+2025-05-26 19:50:09,962 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 19:50:09,963 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 19:50:31,282 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.875}
+2025-05-26 19:50:43,297 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 19:50:43,299 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 19:50:43,300 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:50:43,300 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:50:43,300 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 19:50:43,302 - RAG Application - INFO - Faithfulness: 0.625
+2025-05-26 19:50:43,302 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:50:43,303 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 19:50:43,303 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:50:43,304 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:50:43,304 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 19:50:43,305 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:50:43,306 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:50:43,306 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 19:50:43,307 - RAG Application - INFO - Faithfulness: 0.875
+2025-05-26 19:50:43,307 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:50:43,308 - RAG Application - INFO - Average Faithfulness score for chroma_metadata: 0.9
+2025-05-26 19:50:44,088 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 19:50:44,889 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-26 19:51:15,225 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 19:51:15,225 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 19:51:15,226 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata
+2025-05-26 19:51:15,244 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 19:51:17,144 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 19:51:29,159 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 19:51:29,160 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 19:51:41,556 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.625}
+2025-05-26 19:51:53,570 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 19:51:53,571 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 19:52:10,263 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 19:52:22,276 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 19:52:22,277 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 19:52:47,481 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 1.0}
+2025-05-26 19:52:59,485 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 19:52:59,487 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 19:53:21,120 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.875}
+2025-05-26 19:53:33,132 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 19:53:33,138 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 19:53:33,138 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:53:33,139 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:53:33,140 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 19:53:33,141 - RAG Application - INFO - Faithfulness: 0.625
+2025-05-26 19:53:33,142 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:53:33,143 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 19:53:33,144 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:53:33,145 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:53:33,146 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 19:53:33,146 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:53:33,148 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:53:33,150 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 19:53:33,152 - RAG Application - INFO - Faithfulness: 0.875
+2025-05-26 19:53:33,152 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:53:33,153 - RAG Application - INFO - Average Faithfulness score for chroma_metadata: 0.9
+2025-05-26 19:53:34,125 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 19:53:34,897 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-26 19:54:35,163 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 19:54:35,164 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 19:54:35,165 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata_reranker
+2025-05-26 19:54:35,220 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 19:54:36,788 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 19:54:48,792 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 19:54:48,794 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 19:54:51,346 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.9545454545454546}
+2025-05-26 19:55:03,353 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 19:55:03,355 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 19:55:20,938 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 19:55:32,940 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 19:55:32,942 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 19:55:58,509 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 1.0}
+2025-05-26 19:56:10,512 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 19:56:10,513 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 19:56:28,137 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.7142857142857143}
+2025-05-26 19:56:40,150 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 19:56:40,153 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 19:56:40,154 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:56:40,154 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:56:40,155 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 19:56:40,155 - RAG Application - INFO - Faithfulness: 0.9545454545454546
+2025-05-26 19:56:40,156 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:56:40,157 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 19:56:40,157 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:56:40,158 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:56:40,159 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 19:56:40,159 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:56:40,162 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:56:40,162 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 19:56:40,163 - RAG Application - INFO - Faithfulness: 0.7142857142857143
+2025-05-26 19:56:40,164 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:56:40,165 - RAG Application - INFO - Average Faithfulness score for chroma_metadata_reranker: 0.9337662337662337
+2025-05-26 19:56:40,956 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 19:56:41,731 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-26 19:57:12,033 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 19:57:12,034 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 19:57:12,042 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata_reranker
+2025-05-26 19:57:12,059 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 19:57:13,851 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 19:57:25,867 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 19:57:25,868 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 19:57:40,507 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.9545454545454546}
+2025-05-26 19:57:52,520 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 19:57:52,522 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 19:58:14,735 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 19:58:26,740 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 19:58:26,741 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 19:58:51,656 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 1.0}
+2025-05-26 19:59:03,668 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 19:59:03,669 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 19:59:21,684 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.7142857142857143}
+2025-05-26 19:59:33,691 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 19:59:33,694 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 19:59:33,695 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:59:33,695 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:59:33,696 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 19:59:33,696 - RAG Application - INFO - Faithfulness: 0.9545454545454546
+2025-05-26 19:59:33,697 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:59:33,697 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 19:59:33,698 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:59:33,699 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:59:33,699 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 19:59:33,700 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 19:59:33,701 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:59:33,701 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 19:59:33,702 - RAG Application - INFO - Faithfulness: 0.7142857142857143
+2025-05-26 19:59:33,703 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 19:59:33,705 - RAG Application - INFO - Average Faithfulness score for chroma_metadata_reranker: 0.9337662337662337
+2025-05-26 19:59:34,486 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 19:59:35,311 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-26 20:00:05,713 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 20:00:05,713 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 20:00:05,714 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata_reranker
+2025-05-26 20:00:05,730 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:00:07,228 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 20:00:19,233 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:00:19,234 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:00:35,162 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.9545454545454546}
+2025-05-26 20:00:47,172 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:00:47,174 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:01:07,766 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 20:01:19,781 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:01:19,783 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:01:45,378 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 1.0}
+2025-05-26 20:01:57,387 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:01:57,389 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:02:14,191 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.7142857142857143}
+2025-05-26 20:02:26,201 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:02:26,204 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:02:26,205 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 20:02:26,206 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:02:26,206 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:02:26,207 - RAG Application - INFO - Faithfulness: 0.9545454545454546
+2025-05-26 20:02:26,208 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:02:26,208 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:02:26,209 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 20:02:26,209 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:02:26,210 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:02:26,210 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 20:02:26,211 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:02:26,211 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:02:26,212 - RAG Application - INFO - Faithfulness: 0.7142857142857143
+2025-05-26 20:02:26,212 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:02:26,213 - RAG Application - INFO - Average Faithfulness score for chroma_metadata_reranker: 0.9337662337662337
+2025-05-26 20:02:27,083 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:02:27,914 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-26 20:02:58,283 - RAG Application - INFO - Initializing Faithfulness Evaluator
+2025-05-26 20:02:58,284 - RAG Application - INFO - Faithfulness Evaluator initialized successfully
+2025-05-26 20:02:58,285 - RAG Application - INFO - Running faithfulness evaluation for method: chroma_metadata_reranker
+2025-05-26 20:02:58,302 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-26 20:02:59,741 - RAG Application - INFO - Sample 1: Score = {'faithfulness': 1.0}
+2025-05-26 20:03:11,749 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-26 20:03:11,751 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-26 20:03:27,548 - RAG Application - INFO - Sample 2: Score = {'faithfulness': 0.9545454545454546}
+2025-05-26 20:03:39,562 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-26 20:03:39,563 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-26 20:04:01,163 - RAG Application - INFO - Sample 3: Score = {'faithfulness': 1.0}
+2025-05-26 20:04:13,170 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-26 20:04:13,172 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-26 20:04:38,225 - RAG Application - INFO - Sample 4: Score = {'faithfulness': 1.0}
+2025-05-26 20:04:50,230 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-26 20:04:50,231 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-26 20:05:08,037 - RAG Application - INFO - Sample 5: Score = {'faithfulness': 0.7142857142857143}
+2025-05-26 20:05:20,050 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-26 20:05:20,053 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-26 20:05:20,054 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 20:05:20,054 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:05:20,055 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-26 20:05:20,055 - RAG Application - INFO - Faithfulness: 0.9545454545454546
+2025-05-26 20:05:20,056 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:05:20,057 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-26 20:05:20,057 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 20:05:20,058 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:05:20,058 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-26 20:05:20,059 - RAG Application - INFO - Faithfulness: 1.0
+2025-05-26 20:05:20,059 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:05:20,060 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-26 20:05:20,061 - RAG Application - INFO - Faithfulness: 0.7142857142857143
+2025-05-26 20:05:20,062 - RAG Application - INFO - --------------------------------------------------
+2025-05-26 20:05:20,065 - RAG Application - INFO - Average Faithfulness score for chroma_metadata_reranker: 0.9337662337662337
+2025-05-26 20:05:20,776 - RAG Application - INFO - Faithfulness evaluation results saved to sheet 'faithfulness_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-26 20:05:21,505 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker

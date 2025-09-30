@@ -1,0 +1,610 @@
+2025-03-11 10:33:04,624 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-11 10:33:09,839 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-11 10:33:09,840 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-11 10:33:14,331 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-11 10:33:14,332 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-11 10:33:14,925 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-11 10:33:14,970 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-11 10:33:20,351 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-11 10:33:20,363 - RAG Application - INFO - Starting test run with 10 questions
+2025-03-11 10:33:20,363 - RAG Application - INFO - Processing question 1/10: What research areas does Oregon State University focus on?
+2025-03-11 10:33:20,364 - RAG Application - INFO - Processing query: What research areas does Oregon State University focus on?
+2025-03-11 10:33:24,040 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:33:26,905 - RAG Application - INFO - Completed question 1: retrieved 3 documents in 3.68s
+2025-03-11 10:33:26,906 - RAG Application - INFO - Processing question 2/10: Tell me about marine biology research at OSU
+2025-03-11 10:33:26,907 - RAG Application - INFO - Processing query: Tell me about marine biology research at OSU
+2025-03-11 10:33:30,343 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:33:33,828 - RAG Application - INFO - Completed question 2: retrieved 3 documents in 3.44s
+2025-03-11 10:33:33,829 - RAG Application - INFO - Processing question 3/10: Who are the professors in the Computer Science department?
+2025-03-11 10:33:33,830 - RAG Application - INFO - Processing query: Who are the professors in the Computer Science department?
+2025-03-11 10:33:36,715 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:33:38,674 - RAG Application - INFO - Completed question 3: retrieved 3 documents in 2.89s
+2025-03-11 10:33:38,675 - RAG Application - INFO - Processing question 4/10: What publications has the Robotics department produced recently?
+2025-03-11 10:33:38,676 - RAG Application - INFO - Processing query: What publications has the Robotics department produced recently?
+2025-03-11 10:33:42,608 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:33:45,408 - RAG Application - INFO - Completed question 4: retrieved 3 documents in 3.93s
+2025-03-11 10:33:45,408 - RAG Application - INFO - Processing question 5/10: Which faculty members specialize in artificial intelligence?
+2025-03-11 10:33:45,411 - RAG Application - INFO - Processing query: Which faculty members specialize in artificial intelligence?
+2025-03-11 10:34:00,950 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:34:04,172 - RAG Application - INFO - Completed question 5: retrieved 3 documents in 15.54s
+2025-03-11 10:34:04,174 - RAG Application - INFO - Processing question 6/10: What are the main areas of research in forestry at OSU?
+2025-03-11 10:34:04,176 - RAG Application - INFO - Processing query: What are the main areas of research in forestry at OSU?
+2025-03-11 10:34:19,802 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:34:22,568 - RAG Application - INFO - Completed question 6: retrieved 3 documents in 15.63s
+2025-03-11 10:34:22,569 - RAG Application - INFO - Processing question 7/10: Tell me about Professor Karthika Mohan's research
+2025-03-11 10:34:22,571 - RAG Application - INFO - Processing query: Tell me about Professor Karthika Mohan's research
+2025-03-11 10:34:39,081 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:34:43,648 - RAG Application - INFO - Completed question 7: retrieved 3 documents in 16.51s
+2025-03-11 10:34:43,649 - RAG Application - INFO - Processing question 8/10: What collaborations exist between OSU and industry partners?
+2025-03-11 10:34:43,650 - RAG Application - INFO - Processing query: What collaborations exist between OSU and industry partners?
+2025-03-11 10:34:57,097 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:35:00,578 - RAG Application - INFO - Completed question 8: retrieved 3 documents in 13.45s
+2025-03-11 10:35:00,579 - RAG Application - INFO - Processing question 9/10: What grants has the Chemistry department received?
+2025-03-11 10:35:00,581 - RAG Application - INFO - Processing query: What grants has the Chemistry department received?
+2025-03-11 10:35:16,664 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:35:20,094 - RAG Application - INFO - Completed question 9: retrieved 3 documents in 16.09s
+2025-03-11 10:35:20,095 - RAG Application - INFO - Processing question 10/10: What are the latest developments in renewable energy research at OSU?
+2025-03-11 10:35:20,096 - RAG Application - INFO - Processing query: What are the latest developments in renewable energy research at OSU?
+2025-03-11 10:35:33,146 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:35:35,971 - RAG Application - INFO - Completed question 10: retrieved 3 documents in 13.05s
+2025-03-11 10:55:09,474 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-11 10:55:15,162 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-11 10:55:15,164 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-11 10:55:19,898 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-11 10:55:19,898 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-11 10:55:20,507 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-11 10:55:20,515 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-11 10:55:25,874 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-11 10:55:25,877 - RAG Application - INFO - Starting test run with 10 questions
+2025-03-11 10:55:25,877 - RAG Application - INFO - Processing question 1/10: What research areas does Oregon State University focus on?
+2025-03-11 10:55:25,878 - RAG Application - INFO - Processing query: What research areas does Oregon State University focus on?
+2025-03-11 10:55:29,160 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:55:32,001 - RAG Application - INFO - Completed question 1: retrieved 3 documents in 3.28s
+2025-03-11 10:55:32,002 - RAG Application - INFO - Processing question 2/10: Tell me about marine biology research at OSU
+2025-03-11 10:55:32,003 - RAG Application - INFO - Processing query: Tell me about marine biology research at OSU
+2025-03-11 10:55:35,315 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:55:38,537 - RAG Application - INFO - Completed question 2: retrieved 3 documents in 3.31s
+2025-03-11 10:55:38,538 - RAG Application - INFO - Processing question 3/10: Who are the professors in the Computer Science department?
+2025-03-11 10:55:38,539 - RAG Application - INFO - Processing query: Who are the professors in the Computer Science department?
+2025-03-11 10:55:41,249 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:55:44,109 - RAG Application - INFO - Completed question 3: retrieved 3 documents in 2.71s
+2025-03-11 10:55:44,110 - RAG Application - INFO - Processing question 4/10: What publications has the Robotics department produced recently?
+2025-03-11 10:55:44,111 - RAG Application - INFO - Processing query: What publications has the Robotics department produced recently?
+2025-03-11 10:55:47,968 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:55:51,511 - RAG Application - INFO - Completed question 4: retrieved 3 documents in 3.86s
+2025-03-11 10:55:51,512 - RAG Application - INFO - Processing question 5/10: Which faculty members specialize in artificial intelligence?
+2025-03-11 10:55:51,513 - RAG Application - INFO - Processing query: Which faculty members specialize in artificial intelligence?
+2025-03-11 10:56:06,327 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:56:09,627 - RAG Application - INFO - Completed question 5: retrieved 3 documents in 14.81s
+2025-03-11 10:56:09,628 - RAG Application - INFO - Processing question 6/10: What are the main areas of research in forestry at OSU?
+2025-03-11 10:56:09,629 - RAG Application - INFO - Processing query: What are the main areas of research in forestry at OSU?
+2025-03-11 10:56:24,540 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:56:27,767 - RAG Application - INFO - Completed question 6: retrieved 3 documents in 14.91s
+2025-03-11 10:56:27,768 - RAG Application - INFO - Processing question 7/10: Tell me about Professor Karthika Mohan's research
+2025-03-11 10:56:27,769 - RAG Application - INFO - Processing query: Tell me about Professor Karthika Mohan's research
+2025-03-11 10:56:43,515 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:56:47,751 - RAG Application - INFO - Completed question 7: retrieved 3 documents in 15.75s
+2025-03-11 10:56:47,752 - RAG Application - INFO - Processing question 8/10: What collaborations exist between OSU and industry partners?
+2025-03-11 10:56:47,753 - RAG Application - INFO - Processing query: What collaborations exist between OSU and industry partners?
+2025-03-11 10:57:01,842 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:57:04,765 - RAG Application - INFO - Completed question 8: retrieved 3 documents in 14.09s
+2025-03-11 10:57:04,766 - RAG Application - INFO - Processing question 9/10: What grants has the Chemistry department received?
+2025-03-11 10:57:04,767 - RAG Application - INFO - Processing query: What grants has the Chemistry department received?
+2025-03-11 10:57:21,615 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:57:24,878 - RAG Application - INFO - Completed question 9: retrieved 3 documents in 16.85s
+2025-03-11 10:57:24,879 - RAG Application - INFO - Processing question 10/10: What are the latest developments in renewable energy research at OSU?
+2025-03-11 10:57:24,880 - RAG Application - INFO - Processing query: What are the latest developments in renewable energy research at OSU?
+2025-03-11 10:57:37,955 - RAG Application - INFO - Query processed successfully
+2025-03-11 10:57:41,027 - RAG Application - INFO - Completed question 10: retrieved 3 documents in 13.08s
+2025-03-11 10:57:41,029 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250311_105525.json
+2025-03-11 10:57:41,038 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250311_105525.md
+2025-03-11 11:16:10,331 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-11 11:16:17,216 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-11 11:16:17,217 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-11 11:16:22,538 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-11 11:16:22,539 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-11 11:16:23,142 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-11 11:16:23,170 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-11 11:16:29,244 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-11 11:16:29,246 - RAG Application - INFO - Starting test run with 1 questions
+2025-03-11 11:16:29,247 - RAG Application - INFO - Processing question 1/1: Tell me about Professor Karthika Mohan's research
+2025-03-11 11:16:29,248 - RAG Application - INFO - Processing query: Tell me about Professor Karthika Mohan's research
+2025-03-11 11:16:33,437 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:16:36,226 - RAG Application - INFO - Completed question 1: retrieved 3 documents in 4.19s
+2025-03-11 11:16:36,228 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250311_111629.json
+2025-03-11 11:16:36,229 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250311_111629.md
+2025-03-11 11:36:12,942 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-11 11:36:18,137 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-11 11:36:18,139 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-11 11:36:23,135 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-11 11:36:23,135 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-11 11:36:23,620 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-11 11:36:23,626 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-11 11:36:27,648 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-11 11:36:27,650 - RAG Application - INFO - Starting test run with 1 questions
+2025-03-11 11:36:27,651 - RAG Application - INFO - Processing question 1/1: Tell me about Professor Karthika Mohan's research
+2025-03-11 11:36:27,652 - RAG Application - INFO - Processing query: Tell me about Professor Karthika Mohan's research
+2025-03-11 11:36:31,586 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:36:34,012 - RAG Application - ERROR - Error processing question 'Tell me about Professor Karthika Mohan's research': name 're' is not defined
+2025-03-11 11:36:34,014 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250311_113627.json
+2025-03-11 11:36:34,014 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250311_113627.md
+2025-03-11 11:38:22,541 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-11 11:38:26,706 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-11 11:38:26,707 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-11 11:38:30,657 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-11 11:38:30,657 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-11 11:38:31,123 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-11 11:38:31,128 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-11 11:38:35,007 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-11 11:38:35,009 - RAG Application - INFO - Starting test run with 1 questions
+2025-03-11 11:38:35,010 - RAG Application - INFO - Processing question 1/1: Tell me about Professor Karthika Mohan's research
+2025-03-11 11:38:35,010 - RAG Application - INFO - Processing query: Tell me about Professor Karthika Mohan's research
+2025-03-11 11:38:38,641 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:38:40,941 - RAG Application - INFO - Completed question 1: retrieved 3 documents in 3.63s
+2025-03-11 11:38:40,943 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250311_113835.json
+2025-03-11 11:38:40,944 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250311_113835.md
+2025-03-11 11:44:02,177 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-11 11:44:06,693 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-11 11:44:06,694 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-11 11:44:10,450 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-11 11:44:10,450 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-11 11:44:10,941 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-11 11:44:10,951 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-11 11:44:15,366 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-11 11:44:15,368 - RAG Application - INFO - Starting test run with 1 questions
+2025-03-11 11:44:15,368 - RAG Application - INFO - Processing question 1/1: Please provide publications having Alan Fern as authorPlease provide publications that Alan Fern has co-publishedWho is Alan Fern?Where is DRAIL laboratory located at?What are the primary research goals of DRAIL?What are some challenges in achieving agile locomotion for legged robots?How does reinforcement learning contribute to bipedal locomotion?What are the research papers published by Cory Simon?Who is Cory Simon?Can you tell me if any professor has worked in Anomaly Detection and what work was it?What is the main focus of the Hendrix Lab at Oregon State University?What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?What is the Soundbendor Lab and what type of students are they recruiting?What is Professor Stephen Ramsey's h-index ?What are Stephen Ramsey's research areas?What is the title of Stephen Ramsey's most cited paper?Does Professor Stephen Ramsey have any patents listed in his publications?What software packages did Cory Simon develop?What research areas does Lizhong Chen focus on?Who runs the Charisma lab?How many robotics groups are present ?Can you provide a list of publications authored by Stefan Lee?Can you tell me about the information processing groupHas anyone worked on negative effects of AI?What subjects has Rebecca Hutchinson taught?Are there any professors using AI to study RNA biology for medical purposes?Can you provide information on the student projects completed by the Soundbendor Lab in 2024?Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?Can you tell me about the papers that were published in 2024 by Sandhya Saisubramanian?Can you tell me the papers titles that were published in 2024 by Sandhya Subramaniam?Tell me about Professor Karthika Mohan's research
+2025-03-11 11:44:15,369 - RAG Application - INFO - Processing query: Please provide publications having Alan Fern as authorPlease provide publications that Alan Fern has co-publishedWho is Alan Fern?Where is DRAIL laboratory located at?What are the primary research goals of DRAIL?What are some challenges in achieving agile locomotion for legged robots?How does reinforcement learning contribute to bipedal locomotion?What are the research papers published by Cory Simon?Who is Cory Simon?Can you tell me if any professor has worked in Anomaly Detection and what work was it?What is the main focus of the Hendrix Lab at Oregon State University?What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?What is the Soundbendor Lab and what type of students are they recruiting?What is Professor Stephen Ramsey's h-index ?What are Stephen Ramsey's research areas?What is the title of Stephen Ramsey's most cited paper?Does Professor Stephen Ramsey have any patents listed in his publications?What software packages did Cory Simon develop?What research areas does Lizhong Chen focus on?Who runs the Charisma lab?How many robotics groups are present ?Can you provide a list of publications authored by Stefan Lee?Can you tell me about the information processing groupHas anyone worked on negative effects of AI?What subjects has Rebecca Hutchinson taught?Are there any professors using AI to study RNA biology for medical purposes?Can you provide information on the student projects completed by the Soundbendor Lab in 2024?Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?Can you tell me about the papers that were published in 2024 by Sandhya Saisubramanian?Can you tell me the papers titles that were published in 2024 by Sandhya Subramaniam?Tell me about Professor Karthika Mohan's research
+2025-03-11 11:44:21,396 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:44:24,048 - RAG Application - INFO - Completed question 1: retrieved 3 documents in 6.03s
+2025-03-11 11:44:24,049 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250311_114415.json
+2025-03-11 11:44:24,050 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250311_114415.md
+2025-03-11 11:47:05,818 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-11 11:47:09,824 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-11 11:47:09,825 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-11 11:47:13,596 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-11 11:47:13,597 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-11 11:47:14,074 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-11 11:47:14,080 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-11 11:47:17,863 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-11 11:47:17,865 - RAG Application - INFO - Starting test run with 31 questions
+2025-03-11 11:47:17,865 - RAG Application - INFO - Processing question 1/31: Please provide publications having Alan Fern as author
+2025-03-11 11:47:17,866 - RAG Application - INFO - Processing query: Please provide publications having Alan Fern as author
+2025-03-11 11:47:21,355 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:47:23,738 - RAG Application - INFO - Completed question 1: retrieved 3 documents in 3.49s
+2025-03-11 11:47:23,738 - RAG Application - INFO - Processing question 2/31: Please provide publications that Alan Fern has co-published
+2025-03-11 11:47:23,739 - RAG Application - INFO - Processing query: Please provide publications that Alan Fern has co-published
+2025-03-11 11:47:26,765 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:47:29,175 - RAG Application - INFO - Completed question 2: retrieved 3 documents in 3.03s
+2025-03-11 11:47:29,176 - RAG Application - INFO - Processing question 3/31: Who is Alan Fern?
+2025-03-11 11:47:29,177 - RAG Application - INFO - Processing query: Who is Alan Fern?
+2025-03-11 11:47:31,406 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:47:33,158 - RAG Application - INFO - Completed question 3: retrieved 3 documents in 2.23s
+2025-03-11 11:47:33,158 - RAG Application - INFO - Processing question 4/31: Where is DRAIL laboratory located at?
+2025-03-11 11:47:33,159 - RAG Application - INFO - Processing query: Where is DRAIL laboratory located at?
+2025-03-11 11:47:35,299 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:47:36,991 - RAG Application - INFO - Completed question 4: retrieved 3 documents in 2.14s
+2025-03-11 11:47:36,991 - RAG Application - INFO - Processing question 5/31: What are the primary research goals of DRAIL?
+2025-03-11 11:47:36,992 - RAG Application - INFO - Processing query: What are the primary research goals of DRAIL?
+2025-03-11 11:47:52,054 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:47:53,989 - RAG Application - INFO - Completed question 5: retrieved 3 documents in 15.06s
+2025-03-11 11:47:53,989 - RAG Application - INFO - Processing question 6/31: What are some challenges in achieving agile locomotion for legged robots?
+2025-03-11 11:47:53,990 - RAG Application - INFO - Processing query: What are some challenges in achieving agile locomotion for legged robots?
+2025-03-11 11:48:07,911 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:48:09,683 - RAG Application - INFO - Completed question 6: retrieved 3 documents in 13.92s
+2025-03-11 11:48:09,684 - RAG Application - INFO - Processing question 7/31: How does reinforcement learning contribute to bipedal locomotion?
+2025-03-11 11:48:09,685 - RAG Application - INFO - Processing query: How does reinforcement learning contribute to bipedal locomotion?
+2025-03-11 11:48:26,708 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:48:28,536 - RAG Application - INFO - Completed question 7: retrieved 3 documents in 17.03s
+2025-03-11 11:48:28,538 - RAG Application - INFO - Processing question 8/31: What are the research papers published by Cory Simon?
+2025-03-11 11:48:28,539 - RAG Application - INFO - Processing query: What are the research papers published by Cory Simon?
+2025-03-11 11:48:43,985 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:48:46,104 - RAG Application - INFO - Completed question 8: retrieved 3 documents in 15.45s
+2025-03-11 11:48:46,105 - RAG Application - INFO - Processing question 9/31: Who is Cory Simon?
+2025-03-11 11:48:46,106 - RAG Application - INFO - Processing query: Who is Cory Simon?
+2025-03-11 11:49:04,934 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:49:07,015 - RAG Application - INFO - Completed question 9: retrieved 3 documents in 18.83s
+2025-03-11 11:49:07,016 - RAG Application - INFO - Processing question 10/31: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-03-11 11:49:07,017 - RAG Application - INFO - Processing query: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-03-11 11:49:21,878 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:49:23,484 - RAG Application - INFO - Completed question 10: retrieved 3 documents in 14.86s
+2025-03-11 11:49:23,485 - RAG Application - INFO - Processing question 11/31: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-03-11 11:49:23,486 - RAG Application - INFO - Processing query: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-03-11 11:49:42,378 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:49:44,298 - RAG Application - INFO - Completed question 11: retrieved 3 documents in 18.89s
+2025-03-11 11:49:44,298 - RAG Application - INFO - Processing question 12/31: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-03-11 11:49:44,299 - RAG Application - INFO - Processing query: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-03-11 11:49:59,993 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:50:01,981 - RAG Application - INFO - Completed question 12: retrieved 3 documents in 15.70s
+2025-03-11 11:50:01,981 - RAG Application - INFO - Processing question 13/31: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-03-11 11:50:01,982 - RAG Application - INFO - Processing query: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-03-11 11:50:14,751 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:50:16,704 - RAG Application - INFO - Completed question 13: retrieved 3 documents in 12.77s
+2025-03-11 11:50:16,705 - RAG Application - INFO - Processing question 14/31: What is Professor Stephen Ramsey's h-index ?
+2025-03-11 11:50:16,706 - RAG Application - INFO - Processing query: What is Professor Stephen Ramsey's h-index ?
+2025-03-11 11:50:34,065 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:50:35,896 - RAG Application - INFO - Completed question 14: retrieved 3 documents in 17.36s
+2025-03-11 11:50:35,897 - RAG Application - INFO - Processing question 15/31: What are Stephen Ramsey's research areas?
+2025-03-11 11:50:35,898 - RAG Application - INFO - Processing query: What are Stephen Ramsey's research areas?
+2025-03-11 11:50:50,474 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:50:52,373 - RAG Application - INFO - Completed question 15: retrieved 3 documents in 14.58s
+2025-03-11 11:50:52,374 - RAG Application - INFO - Processing question 16/31: What is the title of Stephen Ramsey's most cited paper?
+2025-03-11 11:50:52,376 - RAG Application - INFO - Processing query: What is the title of Stephen Ramsey's most cited paper?
+2025-03-11 11:51:07,286 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:51:09,779 - RAG Application - INFO - Completed question 16: retrieved 3 documents in 14.91s
+2025-03-11 11:51:09,780 - RAG Application - INFO - Processing question 17/31: Does Professor Stephen Ramsey have any patents listed in his publications?
+2025-03-11 11:51:09,781 - RAG Application - INFO - Processing query: Does Professor Stephen Ramsey have any patents listed in his publications?
+2025-03-11 11:51:22,268 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:51:24,719 - RAG Application - INFO - Completed question 17: retrieved 3 documents in 12.49s
+2025-03-11 11:51:24,719 - RAG Application - INFO - Processing question 18/31: What software packages did Cory Simon develop?
+2025-03-11 11:51:24,720 - RAG Application - INFO - Processing query: What software packages did Cory Simon develop?
+2025-03-11 11:51:40,998 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:51:43,259 - RAG Application - INFO - Completed question 18: retrieved 3 documents in 16.28s
+2025-03-11 11:51:43,260 - RAG Application - INFO - Processing question 19/31: What research areas does Lizhong Chen focus on?
+2025-03-11 11:51:43,261 - RAG Application - INFO - Processing query: What research areas does Lizhong Chen focus on?
+2025-03-11 11:51:59,456 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:52:01,262 - RAG Application - INFO - Completed question 19: retrieved 3 documents in 16.20s
+2025-03-11 11:52:01,263 - RAG Application - INFO - Processing question 20/31: Who runs the Charisma lab?
+2025-03-11 11:52:01,264 - RAG Application - INFO - Processing query: Who runs the Charisma lab?
+2025-03-11 11:52:19,040 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:52:20,894 - RAG Application - INFO - Completed question 20: retrieved 3 documents in 17.78s
+2025-03-11 11:52:20,894 - RAG Application - INFO - Processing question 21/31: How many robotics groups are present ?
+2025-03-11 11:52:20,895 - RAG Application - INFO - Processing query: How many robotics groups are present ?
+2025-03-11 11:52:37,039 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:52:39,276 - RAG Application - INFO - Completed question 21: retrieved 3 documents in 16.15s
+2025-03-11 11:52:39,276 - RAG Application - INFO - Processing question 22/31: Can you provide a list of publications authored by Stefan Lee?
+2025-03-11 11:52:39,277 - RAG Application - INFO - Processing query: Can you provide a list of publications authored by Stefan Lee?
+2025-03-11 11:52:55,487 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:52:57,381 - RAG Application - INFO - Completed question 22: retrieved 3 documents in 16.21s
+2025-03-11 11:52:57,381 - RAG Application - INFO - Processing question 23/31: Can you tell me about the information processing group
+2025-03-11 11:52:57,383 - RAG Application - INFO - Processing query: Can you tell me about the information processing group
+2025-03-11 11:53:20,506 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:53:22,998 - RAG Application - INFO - Completed question 23: retrieved 3 documents in 23.13s
+2025-03-11 11:53:22,999 - RAG Application - INFO - Processing question 24/31: Has anyone worked on negative effects of AI?
+2025-03-11 11:53:23,000 - RAG Application - INFO - Processing query: Has anyone worked on negative effects of AI?
+2025-03-11 11:53:36,210 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:53:38,670 - RAG Application - INFO - Completed question 24: retrieved 3 documents in 13.21s
+2025-03-11 11:53:38,670 - RAG Application - INFO - Processing question 25/31: What subjects has Rebecca Hutchinson taught?
+2025-03-11 11:53:38,672 - RAG Application - INFO - Processing query: What subjects has Rebecca Hutchinson taught?
+2025-03-11 11:53:56,460 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:53:58,288 - RAG Application - INFO - Completed question 25: retrieved 3 documents in 17.79s
+2025-03-11 11:53:58,288 - RAG Application - INFO - Processing question 26/31: Are there any professors using AI to study RNA biology for medical purposes?
+2025-03-11 11:53:58,289 - RAG Application - INFO - Processing query: Are there any professors using AI to study RNA biology for medical purposes?
+2025-03-11 11:54:13,788 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:54:16,191 - RAG Application - INFO - Completed question 26: retrieved 3 documents in 15.50s
+2025-03-11 11:54:16,191 - RAG Application - INFO - Processing question 27/31: Can you provide information on the student projects completed by the Soundbendor Lab in 2024?
+2025-03-11 11:54:16,192 - RAG Application - INFO - Processing query: Can you provide information on the student projects completed by the Soundbendor Lab in 2024?
+2025-03-11 11:54:31,557 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:54:33,793 - RAG Application - INFO - Completed question 27: retrieved 3 documents in 15.37s
+2025-03-11 11:54:33,793 - RAG Application - INFO - Processing question 28/31: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+2025-03-11 11:54:33,794 - RAG Application - INFO - Processing query: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+2025-03-11 11:54:48,957 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:54:51,101 - RAG Application - INFO - Completed question 28: retrieved 3 documents in 15.16s
+2025-03-11 11:54:51,102 - RAG Application - INFO - Processing question 29/31: Can you tell me about the papers that were published in 2024 by Sandhya Saisubramanian?
+2025-03-11 11:54:51,103 - RAG Application - INFO - Processing query: Can you tell me about the papers that were published in 2024 by Sandhya Saisubramanian?
+2025-03-11 11:55:06,159 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:55:08,847 - RAG Application - INFO - Completed question 29: retrieved 3 documents in 15.06s
+2025-03-11 11:55:08,848 - RAG Application - INFO - Processing question 30/31: Can you tell me the papers titles that were published in 2024 by Sandhya Subramaniam?
+2025-03-11 11:55:08,849 - RAG Application - INFO - Processing query: Can you tell me the papers titles that were published in 2024 by Sandhya Subramaniam?
+2025-03-11 11:55:27,433 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:55:30,395 - RAG Application - INFO - Completed question 30: retrieved 3 documents in 18.59s
+2025-03-11 11:55:30,395 - RAG Application - INFO - Processing question 31/31: Tell me about Professor Karthika Mohan's research
+2025-03-11 11:55:30,396 - RAG Application - INFO - Processing query: Tell me about Professor Karthika Mohan's research
+2025-03-11 11:55:50,022 - RAG Application - INFO - Query processed successfully
+2025-03-11 11:55:53,130 - RAG Application - INFO - Completed question 31: retrieved 3 documents in 19.63s
+2025-03-11 11:55:53,135 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250311_114717.json
+2025-03-11 11:55:53,136 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250311_114717.md
+2025-03-12 13:15:14,551 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-12 13:15:20,383 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-12 13:15:20,384 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-12 13:15:25,811 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-12 13:15:25,811 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-12 13:15:26,439 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-12 13:15:26,447 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-12 13:15:31,662 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-12 13:15:31,664 - RAG Application - INFO - Starting test run with 31 questions
+2025-03-12 13:15:31,664 - RAG Application - INFO - Processing question 1/31: Please provide publications having Alan Fern as author
+2025-03-12 13:15:31,666 - RAG Application - INFO - Processing query: Please provide publications having Alan Fern as author
+2025-03-12 13:15:34,937 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:15:36,408 - RAG Application - ERROR - Error processing question 'Please provide publications having Alan Fern as author': name 'full_content' is not defined
+2025-03-12 13:15:36,409 - RAG Application - INFO - Processing question 2/31: Please provide publications that Alan Fern has co-published
+2025-03-12 13:15:36,411 - RAG Application - INFO - Processing query: Please provide publications that Alan Fern has co-published
+2025-03-12 13:15:38,923 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:15:40,409 - RAG Application - ERROR - Error processing question 'Please provide publications that Alan Fern has co-published': name 'full_content' is not defined
+2025-03-12 13:15:40,410 - RAG Application - INFO - Processing question 3/31: Who is Alan Fern?
+2025-03-12 13:15:40,411 - RAG Application - INFO - Processing query: Who is Alan Fern?
+2025-03-12 13:16:06,846 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:16:09,482 - RAG Application - ERROR - Error processing question 'Who is Alan Fern?': name 'full_content' is not defined
+2025-03-12 13:16:09,482 - RAG Application - INFO - Processing question 4/31: Where is DRAIL laboratory located at?
+2025-03-12 13:16:09,483 - RAG Application - INFO - Processing query: Where is DRAIL laboratory located at?
+2025-03-12 13:16:37,361 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:16:40,258 - RAG Application - ERROR - Error processing question 'Where is DRAIL laboratory located at?': name 'full_content' is not defined
+2025-03-12 13:16:40,259 - RAG Application - INFO - Processing question 5/31: What are the primary research goals of DRAIL?
+2025-03-12 13:16:40,260 - RAG Application - INFO - Processing query: What are the primary research goals of DRAIL?
+2025-03-12 13:17:03,507 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:17:05,973 - RAG Application - ERROR - Error processing question 'What are the primary research goals of DRAIL?': name 'full_content' is not defined
+2025-03-12 13:17:05,974 - RAG Application - INFO - Processing question 6/31: What are some challenges in achieving agile locomotion for legged robots?
+2025-03-12 13:17:05,976 - RAG Application - INFO - Processing query: What are some challenges in achieving agile locomotion for legged robots?
+2025-03-12 13:17:31,027 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:17:32,338 - RAG Application - ERROR - Error processing question 'What are some challenges in achieving agile locomotion for legged robots?': name 'full_content' is not defined
+2025-03-12 13:17:32,339 - RAG Application - INFO - Processing question 7/31: How does reinforcement learning contribute to bipedal locomotion?
+2025-03-12 13:17:32,340 - RAG Application - INFO - Processing query: How does reinforcement learning contribute to bipedal locomotion?
+2025-03-12 13:17:58,907 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:18:00,941 - RAG Application - ERROR - Error processing question 'How does reinforcement learning contribute to bipedal locomotion?': name 'full_content' is not defined
+2025-03-12 13:18:00,942 - RAG Application - INFO - Processing question 8/31: What are the research papers published by Cory Simon?
+2025-03-12 13:18:00,943 - RAG Application - INFO - Processing query: What are the research papers published by Cory Simon?
+2025-03-12 13:18:27,557 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:18:30,832 - RAG Application - ERROR - Error processing question 'What are the research papers published by Cory Simon?': name 'full_content' is not defined
+2025-03-12 13:18:30,833 - RAG Application - INFO - Processing question 9/31: Who is Cory Simon?
+2025-03-12 13:18:30,835 - RAG Application - INFO - Processing query: Who is Cory Simon?
+2025-03-12 13:19:01,926 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:19:04,438 - RAG Application - ERROR - Error processing question 'Who is Cory Simon?': name 'full_content' is not defined
+2025-03-12 13:19:04,439 - RAG Application - INFO - Processing question 10/31: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-03-12 13:19:04,440 - RAG Application - INFO - Processing query: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-03-12 13:19:31,847 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:19:33,825 - RAG Application - ERROR - Error processing question 'Can you tell me if any professor has worked in Anomaly Detection and what work was it?': name 'full_content' is not defined
+2025-03-12 13:19:33,826 - RAG Application - INFO - Processing question 11/31: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-03-12 13:19:33,826 - RAG Application - INFO - Processing query: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-03-12 13:19:55,627 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:19:58,760 - RAG Application - ERROR - Error processing question 'What is the main focus of the Hendrix Lab at Oregon State University?': name 'full_content' is not defined
+2025-03-12 13:19:58,761 - RAG Application - INFO - Processing question 12/31: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-03-12 13:19:58,762 - RAG Application - INFO - Processing query: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-03-12 13:20:24,704 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:20:27,905 - RAG Application - ERROR - Error processing question 'What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?': name 'full_content' is not defined
+2025-03-12 13:20:27,906 - RAG Application - INFO - Processing question 13/31: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-03-12 13:20:27,907 - RAG Application - INFO - Processing query: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-03-12 13:20:52,285 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:20:54,713 - RAG Application - ERROR - Error processing question 'What is the Soundbendor Lab and what type of students are they recruiting?': name 'full_content' is not defined
+2025-03-12 13:20:54,714 - RAG Application - INFO - Processing question 14/31: What is Professor Stephen Ramsey's h-index ?
+2025-03-12 13:20:54,715 - RAG Application - INFO - Processing query: What is Professor Stephen Ramsey's h-index ?
+2025-03-12 13:21:17,643 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:21:18,837 - RAG Application - ERROR - Error processing question 'What is Professor Stephen Ramsey's h-index ?': name 'full_content' is not defined
+2025-03-12 13:21:18,838 - RAG Application - INFO - Processing question 15/31: What are Stephen Ramsey's research areas?
+2025-03-12 13:21:18,839 - RAG Application - INFO - Processing query: What are Stephen Ramsey's research areas?
+2025-03-12 13:21:41,688 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:21:44,775 - RAG Application - ERROR - Error processing question 'What are Stephen Ramsey's research areas?': name 'full_content' is not defined
+2025-03-12 13:21:44,775 - RAG Application - INFO - Processing question 16/31: What is the title of Stephen Ramsey's most cited paper?
+2025-03-12 13:21:44,776 - RAG Application - INFO - Processing query: What is the title of Stephen Ramsey's most cited paper?
+2025-03-12 13:22:08,031 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:22:11,369 - RAG Application - ERROR - Error processing question 'What is the title of Stephen Ramsey's most cited paper?': name 'full_content' is not defined
+2025-03-12 13:22:11,369 - RAG Application - INFO - Processing question 17/31: Does Professor Stephen Ramsey have any patents listed in his publications?
+2025-03-12 13:22:11,370 - RAG Application - INFO - Processing query: Does Professor Stephen Ramsey have any patents listed in his publications?
+2025-03-12 13:22:33,726 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:22:36,942 - RAG Application - ERROR - Error processing question 'Does Professor Stephen Ramsey have any patents listed in his publications?': name 'full_content' is not defined
+2025-03-12 13:22:36,943 - RAG Application - INFO - Processing question 18/31: What software packages did Cory Simon develop?
+2025-03-12 13:22:36,944 - RAG Application - INFO - Processing query: What software packages did Cory Simon develop?
+2025-03-12 13:23:02,092 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:23:03,665 - RAG Application - ERROR - Error processing question 'What software packages did Cory Simon develop?': name 'full_content' is not defined
+2025-03-12 13:23:03,666 - RAG Application - INFO - Processing question 19/31: What research areas does Lizhong Chen focus on?
+2025-03-12 13:23:03,667 - RAG Application - INFO - Processing query: What research areas does Lizhong Chen focus on?
+2025-03-12 13:23:28,377 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:23:29,799 - RAG Application - ERROR - Error processing question 'What research areas does Lizhong Chen focus on?': name 'full_content' is not defined
+2025-03-12 13:23:29,800 - RAG Application - INFO - Processing question 20/31: Who runs the Charisma lab?
+2025-03-12 13:23:29,801 - RAG Application - INFO - Processing query: Who runs the Charisma lab?
+2025-03-12 13:23:56,789 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:23:59,154 - RAG Application - ERROR - Error processing question 'Who runs the Charisma lab?': name 'full_content' is not defined
+2025-03-12 13:23:59,154 - RAG Application - INFO - Processing question 21/31: How many robotics groups are present ?
+2025-03-12 13:23:59,156 - RAG Application - INFO - Processing query: How many robotics groups are present ?
+2025-03-12 13:24:28,541 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:24:31,054 - RAG Application - ERROR - Error processing question 'How many robotics groups are present ?': name 'full_content' is not defined
+2025-03-12 13:24:31,054 - RAG Application - INFO - Processing question 22/31: Can you provide a list of publications authored by Stefan Lee?
+2025-03-12 13:24:31,055 - RAG Application - INFO - Processing query: Can you provide a list of publications authored by Stefan Lee?
+2025-03-12 13:24:57,211 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:24:59,788 - RAG Application - ERROR - Error processing question 'Can you provide a list of publications authored by Stefan Lee?': name 'full_content' is not defined
+2025-03-12 13:24:59,789 - RAG Application - INFO - Processing question 23/31: Can you tell me about the information processing group
+2025-03-12 13:24:59,791 - RAG Application - INFO - Processing query: Can you tell me about the information processing group
+2025-03-12 13:25:29,837 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:25:31,699 - RAG Application - ERROR - Error processing question 'Can you tell me about the information processing group': name 'full_content' is not defined
+2025-03-12 13:25:31,699 - RAG Application - INFO - Processing question 24/31: Has anyone worked on negative effects of AI?
+2025-03-12 13:25:31,702 - RAG Application - INFO - Processing query: Has anyone worked on negative effects of AI?
+2025-03-12 13:25:54,977 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:25:57,124 - RAG Application - ERROR - Error processing question 'Has anyone worked on negative effects of AI?': name 'full_content' is not defined
+2025-03-12 13:25:57,125 - RAG Application - INFO - Processing question 25/31: What subjects has Rebecca Hutchinson taught?
+2025-03-12 13:25:57,126 - RAG Application - INFO - Processing query: What subjects has Rebecca Hutchinson taught?
+2025-03-12 13:26:23,998 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:26:27,238 - RAG Application - ERROR - Error processing question 'What subjects has Rebecca Hutchinson taught?': name 'full_content' is not defined
+2025-03-12 13:26:27,239 - RAG Application - INFO - Processing question 26/31: Are there any professors using AI to study RNA biology for medical purposes?
+2025-03-12 13:26:27,240 - RAG Application - INFO - Processing query: Are there any professors using AI to study RNA biology for medical purposes?
+2025-03-12 13:26:47,861 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:26:50,974 - RAG Application - ERROR - Error processing question 'Are there any professors using AI to study RNA biology for medical purposes?': name 'full_content' is not defined
+2025-03-12 13:26:50,975 - RAG Application - INFO - Processing question 27/31: Can you provide information on the student projects completed by the Soundbendor Lab in 2024?
+2025-03-12 13:26:50,976 - RAG Application - INFO - Processing query: Can you provide information on the student projects completed by the Soundbendor Lab in 2024?
+2025-03-12 13:27:18,840 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:27:20,935 - RAG Application - ERROR - Error processing question 'Can you provide information on the student projects completed by the Soundbendor Lab in 2024?': name 'full_content' is not defined
+2025-03-12 13:27:20,936 - RAG Application - INFO - Processing question 28/31: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+2025-03-12 13:27:20,938 - RAG Application - INFO - Processing query: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+2025-03-12 13:27:47,104 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:27:48,844 - RAG Application - ERROR - Error processing question 'Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?': name 'full_content' is not defined
+2025-03-12 13:27:48,845 - RAG Application - INFO - Processing question 29/31: Can you tell me about the papers that were published in 2024 by Sandhya Saisubramanian?
+2025-03-12 13:27:48,846 - RAG Application - INFO - Processing query: Can you tell me about the papers that were published in 2024 by Sandhya Saisubramanian?
+2025-03-12 13:28:19,460 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:28:21,949 - RAG Application - ERROR - Error processing question 'Can you tell me about the papers that were published in 2024 by Sandhya Saisubramanian?': name 'full_content' is not defined
+2025-03-12 13:28:21,949 - RAG Application - INFO - Processing question 30/31: Can you tell me the papers titles that were published in 2024 by Sandhya Subramaniam?
+2025-03-12 13:28:21,950 - RAG Application - INFO - Processing query: Can you tell me the papers titles that were published in 2024 by Sandhya Subramaniam?
+2025-03-12 13:28:52,769 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:28:55,736 - RAG Application - ERROR - Error processing question 'Can you tell me the papers titles that were published in 2024 by Sandhya Subramaniam?': name 'full_content' is not defined
+2025-03-12 13:28:55,736 - RAG Application - INFO - Processing question 31/31: Tell me about Professor Karthika Mohan's research
+2025-03-12 13:28:55,737 - RAG Application - INFO - Processing query: Tell me about Professor Karthika Mohan's research
+2025-03-12 13:29:27,678 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:29:31,291 - RAG Application - ERROR - Error processing question 'Tell me about Professor Karthika Mohan's research': name 'full_content' is not defined
+2025-03-12 13:29:31,293 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250312_131531.json
+2025-03-12 13:29:31,294 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250312_131531.md
+2025-03-12 13:32:48,561 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-12 13:32:54,574 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-12 13:32:54,576 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-12 13:33:00,781 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-12 13:33:00,782 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-12 13:33:01,361 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-12 13:33:01,368 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-12 13:33:06,347 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-12 13:33:06,349 - RAG Application - INFO - Starting test run with 1 questions
+2025-03-12 13:33:06,350 - RAG Application - INFO - Processing question 1/1: Please provide publications having Alan Fern as author
+2025-03-12 13:33:06,351 - RAG Application - INFO - Processing query: Please provide publications having Alan Fern as author
+2025-03-12 13:33:09,608 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:33:12,540 - RAG Application - INFO - Completed question 1: retrieved 5 documents in 3.26s
+2025-03-12 13:33:12,542 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250312_133306.json
+2025-03-12 13:33:12,543 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250312_133306.md
+2025-03-12 13:34:09,015 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-12 13:34:15,742 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-12 13:34:15,744 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-12 13:34:20,586 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-12 13:34:20,587 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-12 13:34:21,141 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-12 13:34:21,148 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-12 13:34:26,683 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-12 13:34:26,685 - RAG Application - INFO - Starting test run with 1 questions
+2025-03-12 13:34:26,686 - RAG Application - INFO - Processing question 1/1: Please provide publications having Alan Fern as author
+2025-03-12 13:34:26,686 - RAG Application - INFO - Processing query: Please provide publications having Alan Fern as author
+2025-03-12 13:34:29,803 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:34:32,680 - RAG Application - INFO - Completed question 1: retrieved 5 documents in 3.12s
+2025-03-12 13:34:32,681 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250312_133426.json
+2025-03-12 13:34:32,682 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250312_133426.md
+2025-03-12 13:36:16,950 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-12 13:36:24,459 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-12 13:36:24,461 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-12 13:36:30,048 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-12 13:36:30,049 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-12 13:36:31,001 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-12 13:36:31,010 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-12 13:36:37,562 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-12 13:36:37,566 - RAG Application - INFO - Starting test run with 1 questions
+2025-03-12 13:36:37,566 - RAG Application - INFO - Processing question 1/1: Please provide publications having Alan Fern as author
+2025-03-12 13:36:37,568 - RAG Application - INFO - Processing query: Please provide publications having Alan Fern as author
+2025-03-12 13:36:41,178 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:36:44,084 - RAG Application - INFO - Completed question 1: retrieved 5 documents in 3.61s
+2025-03-12 13:36:44,086 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250312_133637.json
+2025-03-12 13:36:44,088 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250312_133637.md
+2025-03-12 13:55:25,408 - RAG Application - INFO - Initializing RAG components for testing
+2025-03-12 13:55:31,005 - RAG Application - INFO - Initialized embeddings model: BAAI/bge-m3
+2025-03-12 13:55:31,006 - RAG Application - INFO - NO EMBEDDING MODEL IN SESSION STATE - initializing for the first time: BAAI/bge-m3
+2025-03-12 13:55:35,541 - RAG Application - INFO - Setting up RAG pipeline
+2025-03-12 13:55:35,542 - RAG Application - INFO - Creating Groq LLM with model: llama3-70b-8192
+2025-03-12 13:55:36,131 - RAG Application - INFO - Loading FAISS vector store from C:\Coding\Projects\Lanchain RAG\vector_store
+2025-03-12 13:55:36,138 - RAG Application - INFO - FAISS vector store loaded successfully
+2025-03-12 13:55:41,172 - RAG Application - INFO - Using standard retrieval along with Reranker
+2025-03-12 13:55:41,175 - RAG Application - INFO - Starting test run with 31 questions
+2025-03-12 13:55:41,175 - RAG Application - INFO - Processing question 1/31: Please provide publications having Alan Fern as author
+2025-03-12 13:55:41,176 - RAG Application - INFO - Processing query: Please provide publications having Alan Fern as author
+2025-03-12 13:55:44,759 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:55:46,390 - RAG Application - INFO - Completed question 1: retrieved 5 documents in 3.58s
+2025-03-12 13:55:46,391 - RAG Application - INFO - Processing question 2/31: Please provide publications that Alan Fern has co-published
+2025-03-12 13:55:46,394 - RAG Application - INFO - Processing query: Please provide publications that Alan Fern has co-published
+2025-03-12 13:55:48,876 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:55:50,222 - RAG Application - INFO - Completed question 2: retrieved 5 documents in 2.48s
+2025-03-12 13:55:50,223 - RAG Application - INFO - Processing question 3/31: Who is Alan Fern?
+2025-03-12 13:55:50,224 - RAG Application - INFO - Processing query: Who is Alan Fern?
+2025-03-12 13:56:16,556 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:56:18,444 - RAG Application - INFO - Completed question 3: retrieved 5 documents in 26.34s
+2025-03-12 13:56:18,445 - RAG Application - INFO - Processing question 4/31: Where is DRAIL laboratory located at?
+2025-03-12 13:56:18,446 - RAG Application - INFO - Processing query: Where is DRAIL laboratory located at?
+2025-03-12 13:56:47,290 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:56:49,185 - RAG Application - INFO - Completed question 4: retrieved 5 documents in 28.85s
+2025-03-12 13:56:49,186 - RAG Application - INFO - Processing question 5/31: What are the primary research goals of DRAIL?
+2025-03-12 13:56:49,187 - RAG Application - INFO - Processing query: What are the primary research goals of DRAIL?
+2025-03-12 13:57:13,430 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:57:16,085 - RAG Application - INFO - Completed question 5: retrieved 5 documents in 24.25s
+2025-03-12 13:57:16,085 - RAG Application - INFO - Processing question 6/31: What are some challenges in achieving agile locomotion for legged robots?
+2025-03-12 13:57:16,087 - RAG Application - INFO - Processing query: What are some challenges in achieving agile locomotion for legged robots?
+2025-03-12 13:57:40,163 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:57:41,848 - RAG Application - INFO - Completed question 6: retrieved 5 documents in 24.08s
+2025-03-12 13:57:41,849 - RAG Application - INFO - Processing question 7/31: How does reinforcement learning contribute to bipedal locomotion?
+2025-03-12 13:57:41,850 - RAG Application - INFO - Processing query: How does reinforcement learning contribute to bipedal locomotion?
+2025-03-12 13:58:09,452 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:58:11,306 - RAG Application - INFO - Completed question 7: retrieved 5 documents in 27.61s
+2025-03-12 13:58:11,307 - RAG Application - INFO - Processing question 8/31: What are the research papers published by Cory Simon?
+2025-03-12 13:58:11,308 - RAG Application - INFO - Processing query: What are the research papers published by Cory Simon?
+2025-03-12 13:58:38,837 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:58:42,006 - RAG Application - INFO - Completed question 8: retrieved 5 documents in 27.53s
+2025-03-12 13:58:42,007 - RAG Application - INFO - Processing question 9/31: Who is Cory Simon?
+2025-03-12 13:58:42,008 - RAG Application - INFO - Processing query: Who is Cory Simon?
+2025-03-12 13:59:13,143 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:59:15,370 - RAG Application - INFO - Completed question 9: retrieved 5 documents in 31.14s
+2025-03-12 13:59:15,371 - RAG Application - INFO - Processing question 10/31: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-03-12 13:59:15,372 - RAG Application - INFO - Processing query: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-03-12 13:59:42,618 - RAG Application - INFO - Query processed successfully
+2025-03-12 13:59:45,168 - RAG Application - INFO - Completed question 10: retrieved 5 documents in 27.25s
+2025-03-12 13:59:45,169 - RAG Application - INFO - Processing question 11/31: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-03-12 13:59:45,171 - RAG Application - INFO - Processing query: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-03-12 14:00:06,123 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:00:09,052 - RAG Application - INFO - Completed question 11: retrieved 5 documents in 20.96s
+2025-03-12 14:00:09,053 - RAG Application - INFO - Processing question 12/31: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-03-12 14:00:09,054 - RAG Application - INFO - Processing query: What was the topic of Jaden Berger's Honors College thesis under advisor Heather Knight?
+2025-03-12 14:00:34,969 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:00:37,967 - RAG Application - INFO - Completed question 12: retrieved 5 documents in 25.92s
+2025-03-12 14:00:37,968 - RAG Application - INFO - Processing question 13/31: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-03-12 14:00:37,969 - RAG Application - INFO - Processing query: What is the Soundbendor Lab and what type of students are they recruiting?
+2025-03-12 14:01:02,009 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:01:05,286 - RAG Application - INFO - Completed question 13: retrieved 5 documents in 24.04s
+2025-03-12 14:01:05,287 - RAG Application - INFO - Processing question 14/31: What is Professor Stephen Ramsey's h-index ?
+2025-03-12 14:01:05,288 - RAG Application - INFO - Processing query: What is Professor Stephen Ramsey's h-index ?
+2025-03-12 14:01:27,201 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:01:30,431 - RAG Application - INFO - Completed question 14: retrieved 5 documents in 21.92s
+2025-03-12 14:01:30,431 - RAG Application - INFO - Processing question 15/31: What are Stephen Ramsey's research areas?
+2025-03-12 14:01:30,432 - RAG Application - INFO - Processing query: What are Stephen Ramsey's research areas?
+2025-03-12 14:01:52,491 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:01:55,871 - RAG Application - INFO - Completed question 15: retrieved 5 documents in 22.06s
+2025-03-12 14:01:55,871 - RAG Application - INFO - Processing question 16/31: What is the title of Stephen Ramsey's most cited paper?
+2025-03-12 14:01:55,873 - RAG Application - INFO - Processing query: What is the title of Stephen Ramsey's most cited paper?
+2025-03-12 14:02:17,889 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:02:21,599 - RAG Application - INFO - Completed question 16: retrieved 5 documents in 22.02s
+2025-03-12 14:02:21,599 - RAG Application - INFO - Processing question 17/31: Does Professor Stephen Ramsey have any patents listed in his publications?
+2025-03-12 14:02:21,600 - RAG Application - INFO - Processing query: Does Professor Stephen Ramsey have any patents listed in his publications?
+2025-03-12 14:02:44,052 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:02:47,881 - RAG Application - INFO - Completed question 17: retrieved 5 documents in 22.45s
+2025-03-12 14:02:47,882 - RAG Application - INFO - Processing question 18/31: What software packages did Cory Simon develop?
+2025-03-12 14:02:47,884 - RAG Application - INFO - Processing query: What software packages did Cory Simon develop?
+2025-03-12 14:03:13,197 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:03:16,943 - RAG Application - INFO - Completed question 18: retrieved 5 documents in 25.31s
+2025-03-12 14:03:16,944 - RAG Application - INFO - Processing question 19/31: What research areas does Lizhong Chen focus on?
+2025-03-12 14:03:16,945 - RAG Application - INFO - Processing query: What research areas does Lizhong Chen focus on?
+2025-03-12 14:03:38,699 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:03:41,766 - RAG Application - INFO - Completed question 19: retrieved 5 documents in 21.76s
+2025-03-12 14:03:41,767 - RAG Application - INFO - Processing question 20/31: Who runs the Charisma lab?
+2025-03-12 14:03:41,769 - RAG Application - INFO - Processing query: Who runs the Charisma lab?
+2025-03-12 14:04:07,667 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:04:10,787 - RAG Application - INFO - Completed question 20: retrieved 5 documents in 25.90s
+2025-03-12 14:04:10,787 - RAG Application - INFO - Processing question 21/31: How many robotics groups are present ?
+2025-03-12 14:04:10,789 - RAG Application - INFO - Processing query: How many robotics groups are present ?
+2025-03-12 14:04:39,189 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:04:42,397 - RAG Application - INFO - Completed question 21: retrieved 5 documents in 28.40s
+2025-03-12 14:04:42,397 - RAG Application - INFO - Processing question 22/31: Can you provide a list of publications authored by Stefan Lee?
+2025-03-12 14:04:42,398 - RAG Application - INFO - Processing query: Can you provide a list of publications authored by Stefan Lee?
+2025-03-12 14:05:08,635 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:05:11,974 - RAG Application - INFO - Completed question 22: retrieved 5 documents in 26.24s
+2025-03-12 14:05:11,975 - RAG Application - INFO - Processing question 23/31: Can you tell me about the information processing group
+2025-03-12 14:05:11,976 - RAG Application - INFO - Processing query: Can you tell me about the information processing group
+2025-03-12 14:05:40,988 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:05:44,240 - RAG Application - INFO - Completed question 23: retrieved 5 documents in 29.02s
+2025-03-12 14:05:44,241 - RAG Application - INFO - Processing question 24/31: Has anyone worked on negative effects of AI?
+2025-03-12 14:05:44,242 - RAG Application - INFO - Processing query: Has anyone worked on negative effects of AI?
+2025-03-12 14:06:07,084 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:06:10,637 - RAG Application - INFO - Completed question 24: retrieved 5 documents in 22.85s
+2025-03-12 14:06:10,638 - RAG Application - INFO - Processing question 25/31: What subjects has Rebecca Hutchinson taught?
+2025-03-12 14:06:10,639 - RAG Application - INFO - Processing query: What subjects has Rebecca Hutchinson taught?
+2025-03-12 14:06:36,875 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:06:39,489 - RAG Application - INFO - Completed question 25: retrieved 5 documents in 26.24s
+2025-03-12 14:06:39,491 - RAG Application - INFO - Processing question 26/31: Are there any professors using AI to study RNA biology for medical purposes?
+2025-03-12 14:06:39,493 - RAG Application - INFO - Processing query: Are there any professors using AI to study RNA biology for medical purposes?
+2025-03-12 14:07:01,197 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:07:05,036 - RAG Application - INFO - Completed question 26: retrieved 5 documents in 21.71s
+2025-03-12 14:07:05,037 - RAG Application - INFO - Processing question 27/31: Can you provide information on the student projects completed by the Soundbendor Lab in 2024?
+2025-03-12 14:07:05,039 - RAG Application - INFO - Processing query: Can you provide information on the student projects completed by the Soundbendor Lab in 2024?
+2025-03-12 14:07:30,949 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:07:33,753 - RAG Application - INFO - Completed question 27: retrieved 5 documents in 25.91s
+2025-03-12 14:07:33,754 - RAG Application - INFO - Processing question 28/31: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+2025-03-12 14:07:33,755 - RAG Application - INFO - Processing query: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+2025-03-12 14:08:00,144 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:08:03,139 - RAG Application - INFO - Completed question 28: retrieved 5 documents in 26.39s
+2025-03-12 14:08:03,139 - RAG Application - INFO - Processing question 29/31: Can you tell me about the papers that were published in 2024 by Sandhya Saisubramanian?
+2025-03-12 14:08:03,140 - RAG Application - INFO - Processing query: Can you tell me about the papers that were published in 2024 by Sandhya Saisubramanian?
+2025-03-12 14:08:32,706 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:08:36,027 - RAG Application - INFO - Completed question 29: retrieved 5 documents in 29.57s
+2025-03-12 14:08:36,028 - RAG Application - INFO - Processing question 30/31: Can you tell me the papers titles that were published in 2024 by Sandhya Subramaniam?
+2025-03-12 14:08:36,029 - RAG Application - INFO - Processing query: Can you tell me the papers titles that were published in 2024 by Sandhya Subramaniam?
+2025-03-12 14:09:06,596 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:09:09,892 - RAG Application - INFO - Completed question 30: retrieved 5 documents in 30.57s
+2025-03-12 14:09:09,892 - RAG Application - INFO - Processing question 31/31: Tell me about Professor Karthika Mohan's research
+2025-03-12 14:09:09,894 - RAG Application - INFO - Processing query: Tell me about Professor Karthika Mohan's research
+2025-03-12 14:09:42,123 - RAG Application - INFO - Query processed successfully
+2025-03-12 14:09:45,864 - RAG Application - INFO - Completed question 31: retrieved 5 documents in 32.23s
+2025-03-12 14:09:45,875 - RAG Application - INFO - Test results saved to test_results\rag_test_results_20250312_135541.json
+2025-03-12 14:09:45,879 - RAG Application - INFO - Summary report saved to test_results\rag_test_summary_20250312_135541.md

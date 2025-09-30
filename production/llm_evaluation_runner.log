@@ -1,0 +1,278 @@
+2025-05-26 19:30:24,884 - RAG Application - INFO - LLM Evaluation Runner initialized
+2025-05-26 19:30:24,884 - RAG Application - INFO - Models to evaluate: ['llama3-8b-8192', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'llama3-70b-8192']
+2025-05-26 19:30:24,885 - RAG Application - INFO - Retrieval methods: ['faiss_reranker', 'chroma_metadata', 'chroma_metadata_reranker']
+2025-05-26 19:30:24,885 - RAG Application - INFO - Evaluation metrics: ['faithfulness', 'response_relevancy']
+2025-05-26 19:30:24,885 - RAG Application - INFO - Results will be saved to: C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:30:24,890 - RAG Application - INFO - Total combinations to evaluate: 24
+2025-05-26 19:30:24,890 - RAG Application - INFO - Estimated time: ~48 minutes
+2025-05-26 19:30:24,891 - RAG Application - INFO - Results will be saved to: C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:30:24,892 - RAG Application - INFO - 
+====================================================================================================
+2025-05-26 19:30:24,893 - RAG Application - INFO - Running faithfulness with faiss_reranker
+2025-05-26 19:30:24,893 - RAG Application - INFO - ====================================================================================================
+2025-05-26 19:30:24,894 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 19:30:24,895 - RAG Application - INFO - Model 1/4: llama3-8b-8192
+2025-05-26 19:30:24,897 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 19:30:24,897 - RAG Application - INFO - Updated LLM model to: llama3-8b-8192
+2025-05-26 19:30:38,443 - RAG Application - INFO - Running run_faithfulness with faiss_reranker using llama3-8b-8192
+2025-05-26 19:32:55,298 - RAG Application - INFO - Results saved to sheet 'faith_faiss_llama3_8b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:32:55,301 - RAG Application - INFO - Average score: 0.75
+2025-05-26 19:32:55,302 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 19:33:25,308 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 19:33:25,309 - RAG Application - INFO - Model 2/4: llama-3.3-70b-versatile
+2025-05-26 19:33:25,309 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 19:33:25,310 - RAG Application - INFO - Updated LLM model to: llama-3.3-70b-versatile
+2025-05-26 19:33:25,318 - RAG Application - INFO - Running run_faithfulness with faiss_reranker using llama-3.3-70b-versatile
+2025-05-26 19:35:58,061 - RAG Application - INFO - Results saved to sheet 'faith_faiss_llama_3_3_70b_versatile' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:35:58,094 - RAG Application - INFO - Average score: 0.75
+2025-05-26 19:35:58,095 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 19:36:28,105 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 19:36:28,106 - RAG Application - INFO - Model 3/4: llama-3.1-8b-instant
+2025-05-26 19:36:28,108 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 19:36:28,110 - RAG Application - INFO - Updated LLM model to: llama-3.1-8b-instant
+2025-05-26 19:36:28,142 - RAG Application - INFO - Running run_faithfulness with faiss_reranker using llama-3.1-8b-instant
+2025-05-26 19:39:00,740 - RAG Application - INFO - Results saved to sheet 'faith_faiss_llama_3_1_8b_instant' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:39:00,743 - RAG Application - INFO - Average score: 0.75
+2025-05-26 19:39:00,744 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 19:39:30,755 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 19:39:30,756 - RAG Application - INFO - Model 4/4: llama3-70b-8192
+2025-05-26 19:39:30,757 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 19:39:30,757 - RAG Application - INFO - Updated LLM model to: llama3-70b-8192
+2025-05-26 19:39:30,767 - RAG Application - INFO - Running run_faithfulness with faiss_reranker using llama3-70b-8192
+2025-05-26 19:42:03,330 - RAG Application - INFO - Results saved to sheet 'faith_faiss_llama3_70b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:42:03,334 - RAG Application - INFO - Average score: 0.75
+2025-05-26 19:42:03,335 - RAG Application - INFO - Waiting 60 seconds before next retrieval method...
+2025-05-26 19:43:03,344 - RAG Application - INFO - 
+====================================================================================================
+2025-05-26 19:43:03,345 - RAG Application - INFO - Running faithfulness with chroma_metadata
+2025-05-26 19:43:03,345 - RAG Application - INFO - ====================================================================================================
+2025-05-26 19:43:03,346 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 19:43:03,346 - RAG Application - INFO - Model 1/4: llama3-8b-8192
+2025-05-26 19:43:03,347 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 19:43:03,347 - RAG Application - INFO - Updated LLM model to: llama3-8b-8192
+2025-05-26 19:43:03,359 - RAG Application - INFO - Running run_faithfulness with chroma_metadata using llama3-8b-8192
+2025-05-26 19:45:06,804 - RAG Application - INFO - Results saved to sheet 'faith_chroma_llama3_8b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:45:06,808 - RAG Application - INFO - Average score: 0.9
+2025-05-26 19:45:06,808 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 19:45:36,823 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 19:45:36,824 - RAG Application - INFO - Model 2/4: llama-3.3-70b-versatile
+2025-05-26 19:45:36,824 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 19:45:36,825 - RAG Application - INFO - Updated LLM model to: llama-3.3-70b-versatile
+2025-05-26 19:45:36,835 - RAG Application - INFO - Running run_faithfulness with chroma_metadata using llama-3.3-70b-versatile
+2025-05-26 19:47:56,257 - RAG Application - INFO - Results saved to sheet 'faith_chroma_llama_3_3_70b_versatile' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:47:56,261 - RAG Application - INFO - Average score: 0.9
+2025-05-26 19:47:56,262 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 19:48:26,273 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 19:48:26,274 - RAG Application - INFO - Model 3/4: llama-3.1-8b-instant
+2025-05-26 19:48:26,275 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 19:48:26,275 - RAG Application - INFO - Updated LLM model to: llama-3.1-8b-instant
+2025-05-26 19:48:26,287 - RAG Application - INFO - Running run_faithfulness with chroma_metadata using llama-3.1-8b-instant
+2025-05-26 19:50:45,198 - RAG Application - INFO - Results saved to sheet 'faith_chroma_llama_3_1_8b_instant' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:50:45,203 - RAG Application - INFO - Average score: 0.9
+2025-05-26 19:50:45,205 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 19:51:15,213 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 19:51:15,214 - RAG Application - INFO - Model 4/4: llama3-70b-8192
+2025-05-26 19:51:15,215 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 19:51:15,216 - RAG Application - INFO - Updated LLM model to: llama3-70b-8192
+2025-05-26 19:51:15,226 - RAG Application - INFO - Running run_faithfulness with chroma_metadata using llama3-70b-8192
+2025-05-26 19:53:35,130 - RAG Application - INFO - Results saved to sheet 'faith_chroma_llama3_70b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:53:35,133 - RAG Application - INFO - Average score: 0.9
+2025-05-26 19:53:35,133 - RAG Application - INFO - Waiting 60 seconds before next retrieval method...
+2025-05-26 19:54:35,146 - RAG Application - INFO - 
+====================================================================================================
+2025-05-26 19:54:35,146 - RAG Application - INFO - Running faithfulness with chroma_metadata_reranker
+2025-05-26 19:54:35,147 - RAG Application - INFO - ====================================================================================================
+2025-05-26 19:54:35,147 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 19:54:35,148 - RAG Application - INFO - Model 1/4: llama3-8b-8192
+2025-05-26 19:54:35,148 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 19:54:35,149 - RAG Application - INFO - Updated LLM model to: llama3-8b-8192
+2025-05-26 19:54:35,164 - RAG Application - INFO - Running run_faithfulness with chroma_metadata_reranker using llama3-8b-8192
+2025-05-26 19:56:42,010 - RAG Application - INFO - Results saved to sheet 'faith_chroma_rr_llama3_8b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:56:42,013 - RAG Application - INFO - Average score: 0.9337662337662337
+2025-05-26 19:56:42,014 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 19:57:12,022 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 19:57:12,023 - RAG Application - INFO - Model 2/4: llama-3.3-70b-versatile
+2025-05-26 19:57:12,024 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 19:57:12,025 - RAG Application - INFO - Updated LLM model to: llama-3.3-70b-versatile
+2025-05-26 19:57:12,041 - RAG Application - INFO - Running run_faithfulness with chroma_metadata_reranker using llama-3.3-70b-versatile
+2025-05-26 19:59:35,692 - RAG Application - INFO - Results saved to sheet 'faith_chroma_rr_llama_3_3_70b_versatile' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 19:59:35,696 - RAG Application - INFO - Average score: 0.9337662337662337
+2025-05-26 19:59:35,697 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:00:05,703 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:00:05,704 - RAG Application - INFO - Model 3/4: llama-3.1-8b-instant
+2025-05-26 20:00:05,705 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:00:05,705 - RAG Application - INFO - Updated LLM model to: llama-3.1-8b-instant
+2025-05-26 20:00:05,714 - RAG Application - INFO - Running run_faithfulness with chroma_metadata_reranker using llama-3.1-8b-instant
+2025-05-26 20:02:28,261 - RAG Application - INFO - Results saved to sheet 'faith_chroma_rr_llama_3_1_8b_instant' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:02:28,265 - RAG Application - INFO - Average score: 0.9337662337662337
+2025-05-26 20:02:28,265 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:02:58,272 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:02:58,273 - RAG Application - INFO - Model 4/4: llama3-70b-8192
+2025-05-26 20:02:58,274 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:02:58,275 - RAG Application - INFO - Updated LLM model to: llama3-70b-8192
+2025-05-26 20:02:58,284 - RAG Application - INFO - Running run_faithfulness with chroma_metadata_reranker using llama3-70b-8192
+2025-05-26 20:05:21,900 - RAG Application - INFO - Results saved to sheet 'faith_chroma_rr_llama3_70b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:05:21,905 - RAG Application - INFO - Average score: 0.9337662337662337
+2025-05-26 20:05:21,906 - RAG Application - INFO - Waiting 120 seconds before next evaluator...
+2025-05-26 20:07:21,925 - RAG Application - INFO - 
+====================================================================================================
+2025-05-26 20:07:21,925 - RAG Application - INFO - Running response_relevancy with faiss_reranker
+2025-05-26 20:07:21,926 - RAG Application - INFO - ====================================================================================================
+2025-05-26 20:07:21,927 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:07:21,927 - RAG Application - INFO - Model 1/4: llama3-8b-8192
+2025-05-26 20:07:21,928 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:07:21,928 - RAG Application - INFO - Updated LLM model to: llama3-8b-8192
+2025-05-26 20:07:21,945 - RAG Application - INFO - Running run_response_relevancy with faiss_reranker using llama3-8b-8192
+2025-05-26 20:08:34,429 - RAG Application - INFO - Results saved to sheet 'resp_rel_faiss_llama3_8b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:08:34,433 - RAG Application - INFO - Average score: 0.8600831157725064
+2025-05-26 20:08:34,433 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:09:04,445 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:09:04,446 - RAG Application - INFO - Model 2/4: llama-3.3-70b-versatile
+2025-05-26 20:09:04,447 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:09:04,448 - RAG Application - INFO - Updated LLM model to: llama-3.3-70b-versatile
+2025-05-26 20:09:04,458 - RAG Application - INFO - Running run_response_relevancy with faiss_reranker using llama-3.3-70b-versatile
+2025-05-26 20:10:15,006 - RAG Application - INFO - Results saved to sheet 'resp_rel_faiss_llama_3_3_70b_versatile' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:10:15,009 - RAG Application - INFO - Average score: 0.8600831157725064
+2025-05-26 20:10:15,010 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:10:45,023 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:10:45,024 - RAG Application - INFO - Model 3/4: llama-3.1-8b-instant
+2025-05-26 20:10:45,025 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:10:45,026 - RAG Application - INFO - Updated LLM model to: llama-3.1-8b-instant
+2025-05-26 20:10:45,044 - RAG Application - INFO - Running run_response_relevancy with faiss_reranker using llama-3.1-8b-instant
+2025-05-26 20:11:57,072 - RAG Application - INFO - Results saved to sheet 'resp_rel_faiss_llama_3_1_8b_instant' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:11:57,076 - RAG Application - INFO - Average score: 0.8600831157725064
+2025-05-26 20:11:57,077 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:12:27,084 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:12:27,085 - RAG Application - INFO - Model 4/4: llama3-70b-8192
+2025-05-26 20:12:27,086 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:12:27,087 - RAG Application - INFO - Updated LLM model to: llama3-70b-8192
+2025-05-26 20:12:27,097 - RAG Application - INFO - Running run_response_relevancy with faiss_reranker using llama3-70b-8192
+2025-05-26 20:13:38,268 - RAG Application - INFO - Results saved to sheet 'resp_rel_faiss_llama3_70b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:13:38,273 - RAG Application - INFO - Average score: 0.8600831157725064
+2025-05-26 20:13:38,275 - RAG Application - INFO - Waiting 60 seconds before next retrieval method...
+2025-05-26 20:14:38,289 - RAG Application - INFO - 
+====================================================================================================
+2025-05-26 20:14:38,289 - RAG Application - INFO - Running response_relevancy with chroma_metadata
+2025-05-26 20:14:38,290 - RAG Application - INFO - ====================================================================================================
+2025-05-26 20:14:38,291 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:14:38,291 - RAG Application - INFO - Model 1/4: llama3-8b-8192
+2025-05-26 20:14:38,292 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:14:38,292 - RAG Application - INFO - Updated LLM model to: llama3-8b-8192
+2025-05-26 20:14:38,306 - RAG Application - INFO - Running run_response_relevancy with chroma_metadata using llama3-8b-8192
+2025-05-26 20:15:50,134 - RAG Application - INFO - Results saved to sheet 'resp_rel_chroma_llama3_8b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:15:50,137 - RAG Application - INFO - Average score: 0.9406515725439275
+2025-05-26 20:15:50,137 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:16:20,143 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:16:20,144 - RAG Application - INFO - Model 2/4: llama-3.3-70b-versatile
+2025-05-26 20:16:20,145 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:16:20,145 - RAG Application - INFO - Updated LLM model to: llama-3.3-70b-versatile
+2025-05-26 20:16:20,162 - RAG Application - INFO - Running run_response_relevancy with chroma_metadata using llama-3.3-70b-versatile
+2025-05-26 20:17:29,642 - RAG Application - INFO - Results saved to sheet 'resp_rel_chroma_llama_3_3_70b_versatile' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:17:29,645 - RAG Application - INFO - Average score: 0.9406515725439275
+2025-05-26 20:17:29,646 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:17:59,661 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:17:59,662 - RAG Application - INFO - Model 3/4: llama-3.1-8b-instant
+2025-05-26 20:17:59,663 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:17:59,663 - RAG Application - INFO - Updated LLM model to: llama-3.1-8b-instant
+2025-05-26 20:17:59,674 - RAG Application - INFO - Running run_response_relevancy with chroma_metadata using llama-3.1-8b-instant
+2025-05-26 20:19:12,880 - RAG Application - INFO - Results saved to sheet 'resp_rel_chroma_llama_3_1_8b_instant' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:19:12,883 - RAG Application - INFO - Average score: 0.9406515725439275
+2025-05-26 20:19:12,884 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:19:42,886 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:19:42,887 - RAG Application - INFO - Model 4/4: llama3-70b-8192
+2025-05-26 20:19:42,888 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:19:42,888 - RAG Application - INFO - Updated LLM model to: llama3-70b-8192
+2025-05-26 20:19:42,898 - RAG Application - INFO - Running run_response_relevancy with chroma_metadata using llama3-70b-8192
+2025-05-26 20:20:52,216 - RAG Application - INFO - Results saved to sheet 'resp_rel_chroma_llama3_70b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:20:52,220 - RAG Application - INFO - Average score: 0.9406515725439275
+2025-05-26 20:20:52,221 - RAG Application - INFO - Waiting 60 seconds before next retrieval method...
+2025-05-26 20:21:52,236 - RAG Application - INFO - 
+====================================================================================================
+2025-05-26 20:21:52,236 - RAG Application - INFO - Running response_relevancy with chroma_metadata_reranker
+2025-05-26 20:21:52,237 - RAG Application - INFO - ====================================================================================================
+2025-05-26 20:21:52,237 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:21:52,238 - RAG Application - INFO - Model 1/4: llama3-8b-8192
+2025-05-26 20:21:52,238 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:21:52,238 - RAG Application - INFO - Updated LLM model to: llama3-8b-8192
+2025-05-26 20:21:52,260 - RAG Application - INFO - Running run_response_relevancy with chroma_metadata_reranker using llama3-8b-8192
+2025-05-26 20:23:00,971 - RAG Application - INFO - Results saved to sheet 'resp_rel_chroma_rr_llama3_8b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:23:00,975 - RAG Application - INFO - Average score: 0.9395323675802081
+2025-05-26 20:23:00,975 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:23:30,980 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:23:30,980 - RAG Application - INFO - Model 2/4: llama-3.3-70b-versatile
+2025-05-26 20:23:30,981 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:23:30,981 - RAG Application - INFO - Updated LLM model to: llama-3.3-70b-versatile
+2025-05-26 20:23:30,989 - RAG Application - INFO - Running run_response_relevancy with chroma_metadata_reranker using llama-3.3-70b-versatile
+2025-05-26 20:24:43,150 - RAG Application - INFO - Results saved to sheet 'resp_rel_chroma_rr_llama_3_3_70b_versatile' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:24:43,154 - RAG Application - INFO - Average score: 0.9395323675802081
+2025-05-26 20:24:43,154 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:25:13,168 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:25:13,168 - RAG Application - INFO - Model 3/4: llama-3.1-8b-instant
+2025-05-26 20:25:13,169 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:25:13,169 - RAG Application - INFO - Updated LLM model to: llama-3.1-8b-instant
+2025-05-26 20:25:13,176 - RAG Application - INFO - Running run_response_relevancy with chroma_metadata_reranker using llama-3.1-8b-instant
+2025-05-26 20:26:20,586 - RAG Application - INFO - Results saved to sheet 'resp_rel_chroma_rr_llama_3_1_8b_instant' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:26:20,589 - RAG Application - INFO - Average score: 0.9395323675802081
+2025-05-26 20:26:20,590 - RAG Application - INFO - Waiting 30 seconds before next model...
+2025-05-26 20:26:50,597 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:26:50,597 - RAG Application - INFO - Model 4/4: llama3-70b-8192
+2025-05-26 20:26:50,598 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:26:50,598 - RAG Application - INFO - Updated LLM model to: llama3-70b-8192
+2025-05-26 20:26:50,608 - RAG Application - INFO - Running run_response_relevancy with chroma_metadata_reranker using llama3-70b-8192
+2025-05-26 20:27:57,988 - RAG Application - INFO - Results saved to sheet 'resp_rel_chroma_rr_llama3_70b_8192' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\llm_evaluation_results.xlsx
+2025-05-26 20:27:57,993 - RAG Application - INFO - Average score: 0.9395323675802081
+2025-05-26 20:27:58,495 - RAG Application - INFO - Master summary sheet created successfully
+2025-05-26 20:27:59,051 - RAG Application - INFO - Best model analysis sheet created successfully
+2025-05-26 20:27:59,052 - RAG Application - INFO - 
+====================================================================================================
+2025-05-26 20:27:59,052 - RAG Application - INFO - COMPREHENSIVE LLM EVALUATION SUMMARY
+2025-05-26 20:27:59,054 - RAG Application - INFO - ====================================================================================================
+2025-05-26 20:27:59,055 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:27:59,057 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:27:59,095 - RAG Application - INFO - 
+--------------------------------------------------------------------------------
+2025-05-26 20:27:59,097 - RAG Application - INFO - --------------------------------------------------------------------------------
+2025-05-26 20:27:59,132 - RAG Application - INFO - 
+====================================================================================================
+2025-05-26 20:27:59,134 - RAG Application - INFO - ====================================================================================================
+2025-05-26 20:27:59,136 - RAG Application - INFO -   Success Rate: 100.0% (6/6)
+2025-05-26 20:27:59,137 - RAG Application - INFO -   Average Scores by Metric:
+2025-05-26 20:27:59,137 - RAG Application - INFO -     faithfulness: 0.8613 (best: chroma_metadata_reranker - 0.9338)
+2025-05-26 20:27:59,138 - RAG Application - INFO -     response_relevancy: 0.9134 (best: chroma_metadata - 0.9407)
+2025-05-26 20:27:59,140 - RAG Application - INFO -   Success Rate: 100.0% (6/6)
+2025-05-26 20:27:59,140 - RAG Application - INFO -   Average Scores by Metric:
+2025-05-26 20:27:59,141 - RAG Application - INFO -     faithfulness: 0.8613 (best: chroma_metadata_reranker - 0.9338)
+2025-05-26 20:27:59,141 - RAG Application - INFO -     response_relevancy: 0.9134 (best: chroma_metadata - 0.9407)
+2025-05-26 20:27:59,144 - RAG Application - INFO -   Success Rate: 100.0% (6/6)
+2025-05-26 20:27:59,144 - RAG Application - INFO -   Average Scores by Metric:
+2025-05-26 20:27:59,144 - RAG Application - INFO -     faithfulness: 0.8613 (best: chroma_metadata_reranker - 0.9338)
+2025-05-26 20:27:59,144 - RAG Application - INFO -     response_relevancy: 0.9134 (best: chroma_metadata - 0.9407)
+2025-05-26 20:27:59,147 - RAG Application - INFO -   Success Rate: 100.0% (6/6)
+2025-05-26 20:27:59,148 - RAG Application - INFO -   Average Scores by Metric:
+2025-05-26 20:27:59,148 - RAG Application - INFO -     faithfulness: 0.8613 (best: chroma_metadata_reranker - 0.9338)
+2025-05-26 20:27:59,149 - RAG Application - INFO -     response_relevancy: 0.9134 (best: chroma_metadata - 0.9407)

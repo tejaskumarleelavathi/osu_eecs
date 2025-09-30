@@ -1,0 +1,707 @@
+2025-05-25 13:46:48,177 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 13:46:50,648 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 13:46:50,672 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 13:51:34,294 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 13:51:37,020 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 13:51:37,051 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 13:52:18,297 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 13:52:20,941 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 13:52:20,968 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 13:52:20,989 - RAG Application - INFO - Evaluating sample 1/14
+2025-05-25 13:56:11,364 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 13:56:13,986 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 13:56:14,015 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 13:56:14,027 - RAG Application - INFO - Evaluating sample 1/14
+2025-05-25 13:57:37,869 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 13:57:40,352 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 13:57:40,352 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 13:58:06,896 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 13:58:09,345 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 13:58:09,345 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 14:10:42,464 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 14:10:42,464 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 14:10:42,471 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 14:10:42,475 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 14:11:00,369 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 14:11:00,369 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': 0.8874999999778125}
+2025-05-25 14:11:12,373 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 14:11:12,373 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 14:12:08,548 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 14:12:08,548 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 14:12:20,560 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 14:12:20,560 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 14:13:04,964 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 14:13:04,964 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.999999999975}
+2025-05-25 14:13:16,977 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 14:13:16,977 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 14:14:11,278 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 14:14:11,278 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 14:14:23,309 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 14:14:23,309 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 14:15:18,444 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 14:15:18,444 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999995}
+2025-05-25 14:15:30,455 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 14:15:30,455 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 14:15:30,455 - RAG Application - INFO - Context Precision: 0.8874999999778125
+2025-05-25 14:15:30,455 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:15:30,455 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 14:15:30,455 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 14:15:30,455 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:15:30,455 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 14:15:30,455 - RAG Application - INFO - Context Precision: 0.999999999975
+2025-05-25 14:15:30,455 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:15:30,455 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 14:15:30,455 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 14:15:30,455 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:15:30,455 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 14:15:30,455 - RAG Application - INFO - Context Precision: 0.99999999995
+2025-05-25 14:15:30,455 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:15:30,461 - RAG Application - INFO - Average Context Precision score for faiss_reranker: 0.9774999999725626
+2025-05-25 14:15:30,481 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 14:15:30,513 - RAG Application - WARNING - Error reading existing summary, creating new one: Worksheet named 'summary' not found
+2025-05-25 14:15:30,563 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-25 14:16:30,563 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata
+2025-05-25 14:16:30,563 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 14:16:42,747 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 14:16:42,747 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 14:16:54,751 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 14:16:54,751 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 14:17:52,049 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 14:17:52,049 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 14:18:04,055 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 14:18:04,055 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 14:18:50,799 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 14:18:50,799 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 14:19:02,810 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 14:19:02,810 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 14:19:57,051 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 14:19:57,058 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 14:20:09,062 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 14:20:09,062 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 14:21:01,719 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 14:21:01,719 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 14:21:13,731 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 14:21:13,731 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 14:21:13,731 - RAG Application - INFO - Context Precision: nan
+2025-05-25 14:21:13,731 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:21:13,731 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 14:21:13,731 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 14:21:13,731 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:21:13,731 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 14:21:13,731 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 14:21:13,731 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:21:13,731 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 14:21:13,731 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 14:21:13,731 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:21:13,738 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 14:21:13,738 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 14:21:13,739 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:21:13,748 - RAG Application - INFO - Average Context Precision score for chroma_metadata: 0.99999999998
+2025-05-25 14:21:13,821 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 14:21:13,955 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-25 14:22:13,957 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata_reranker
+2025-05-25 14:22:13,957 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 14:22:16,569 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 14:22:16,570 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 14:22:28,571 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 14:22:28,571 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 14:23:21,802 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 14:23:21,802 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 14:23:33,812 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 14:23:33,812 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 14:24:20,976 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 14:24:20,976 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 14:24:32,989 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 14:24:32,989 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 14:25:29,295 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 14:25:29,295 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 14:25:41,308 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 14:25:41,308 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 14:26:32,181 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 14:26:32,181 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 14:26:44,195 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 14:26:44,197 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 14:26:44,197 - RAG Application - INFO - Context Precision: nan
+2025-05-25 14:26:44,197 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:26:44,197 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 14:26:44,197 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 14:26:44,197 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:26:44,197 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 14:26:44,197 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 14:26:44,197 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:26:44,197 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 14:26:44,201 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 14:26:44,201 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:26:44,201 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 14:26:44,201 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 14:26:44,202 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 14:26:44,202 - RAG Application - INFO - Average Context Precision score for chroma_metadata_reranker: 0.99999999998
+2025-05-25 14:26:44,298 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 14:26:44,478 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-25 15:28:42,265 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 15:28:48,077 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 15:28:48,116 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 15:28:48,146 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 15:29:07,149 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 15:29:07,151 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': 0.99999999995}
+2025-05-25 15:29:19,163 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 15:29:19,163 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 15:30:16,541 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 15:30:16,541 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 15:30:28,545 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 15:30:28,545 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 15:31:16,476 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 15:31:16,476 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 15:31:28,487 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 15:31:28,488 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 15:32:21,802 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 15:32:21,804 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 15:32:33,811 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 15:32:33,811 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 15:33:25,284 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 15:33:25,284 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999995}
+2025-05-25 15:33:37,291 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 15:33:37,291 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 15:33:37,295 - RAG Application - INFO - Context Precision: 0.99999999995
+2025-05-25 15:33:37,295 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:33:37,295 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 15:33:37,295 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 15:33:37,295 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:33:37,295 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 15:33:37,298 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 15:33:37,298 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:33:37,298 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 15:33:37,298 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 15:33:37,298 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:33:37,300 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 15:33:37,300 - RAG Application - INFO - Context Precision: 0.99999999995
+2025-05-25 15:33:37,300 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:33:37,300 - RAG Application - INFO - Average Context Precision score for faiss_reranker: 0.999999999968
+2025-05-25 15:33:37,355 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\snow_arctic-embed-l-v2_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 15:33:37,390 - RAG Application - WARNING - Error reading existing summary, creating new one: Worksheet named 'summary' not found
+2025-05-25 15:33:37,455 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-25 15:34:37,459 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata
+2025-05-25 15:34:37,470 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 15:34:40,576 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 15:34:40,576 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 15:34:52,581 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 15:34:52,581 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 15:35:43,717 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 15:35:43,717 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 15:35:55,731 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 15:35:55,731 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 15:36:42,264 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 15:36:42,264 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 15:36:54,272 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 15:36:54,272 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 15:37:49,098 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 15:37:49,100 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.94999999997625}
+2025-05-25 15:38:01,111 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 15:38:01,113 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 15:38:50,359 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 15:38:50,359 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 15:39:02,362 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 15:39:02,362 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 15:39:02,365 - RAG Application - INFO - Context Precision: nan
+2025-05-25 15:39:02,365 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:39:02,365 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 15:39:02,365 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 15:39:02,365 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:39:02,365 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 15:39:02,365 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 15:39:02,370 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:39:02,370 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 15:39:02,370 - RAG Application - INFO - Context Precision: 0.94999999997625
+2025-05-25 15:39:02,370 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:39:02,373 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 15:39:02,373 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 15:39:02,375 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:39:02,387 - RAG Application - INFO - Average Context Precision score for chroma_metadata: 0.9874999999790625
+2025-05-25 15:39:02,519 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\snow_arctic-embed-l-v2_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 15:39:02,745 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-25 15:40:02,753 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata_reranker
+2025-05-25 15:40:02,800 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 15:40:05,946 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 15:40:05,946 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 15:40:17,958 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 15:40:17,958 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 15:41:10,419 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 15:41:10,422 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 15:41:22,425 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 15:41:22,427 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 15:42:11,416 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 15:42:11,416 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 15:42:23,422 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 15:42:23,423 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 15:43:17,648 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 15:43:17,655 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 15:43:29,666 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 15:43:29,668 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 15:44:19,614 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 15:44:19,614 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 15:44:31,636 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 15:44:31,636 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 15:44:31,640 - RAG Application - INFO - Context Precision: nan
+2025-05-25 15:44:31,640 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:44:31,642 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 15:44:31,642 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 15:44:31,642 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:44:31,642 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 15:44:31,644 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 15:44:31,644 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:44:31,644 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 15:44:31,644 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 15:44:31,644 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:44:31,644 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 15:44:31,644 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 15:44:31,644 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 15:44:31,644 - RAG Application - INFO - Average Context Precision score for chroma_metadata_reranker: 0.99999999998
+2025-05-25 15:44:31,820 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\snow_arctic-embed-l-v2_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 15:44:32,040 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-25 16:46:57,564 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 16:47:00,474 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 16:47:00,505 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 16:47:00,527 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 16:48:07,026 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 16:48:07,027 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 16:48:19,030 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 16:48:19,030 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 16:49:29,259 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 16:49:29,260 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 16:49:41,278 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 16:49:41,279 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 16:50:20,843 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 16:50:20,845 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.9166666666361111}
+2025-05-25 16:50:32,852 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 16:50:32,852 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 16:51:24,577 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 16:51:24,577 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.6791666666496875}
+2025-05-25 16:51:36,593 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 16:51:36,593 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 16:52:23,184 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 16:52:23,184 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.0}
+2025-05-25 16:52:35,194 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 16:52:35,196 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 16:52:35,197 - RAG Application - INFO - Context Precision: nan
+2025-05-25 16:52:35,197 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 16:52:35,197 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 16:52:35,199 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 16:52:35,199 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 16:52:35,199 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 16:52:35,200 - RAG Application - INFO - Context Precision: 0.9166666666361111
+2025-05-25 16:52:35,200 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 16:52:35,200 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 16:52:35,200 - RAG Application - INFO - Context Precision: 0.6791666666496875
+2025-05-25 16:52:35,200 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 16:52:35,201 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 16:52:35,201 - RAG Application - INFO - Context Precision: 0.0
+2025-05-25 16:52:35,201 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 16:52:35,203 - RAG Application - INFO - Average Context Precision score for faiss_reranker: 0.6489583333164496
+2025-05-25 16:52:35,242 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\snow_arctic-embed-m-long_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 16:52:35,261 - RAG Application - WARNING - Error reading existing summary, creating new one: Worksheet named 'summary' not found
+2025-05-25 16:52:35,297 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-25 16:53:35,310 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata
+2025-05-25 16:53:35,318 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 16:53:37,177 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 16:53:37,178 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 16:53:49,182 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 16:53:49,182 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 16:54:16,061 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 16:54:16,062 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 16:54:28,067 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 16:54:28,067 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 16:55:13,150 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 16:55:13,151 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.699999999965}
+2025-05-25 16:55:25,156 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 16:55:25,157 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 16:56:20,562 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 16:56:20,565 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.4499999999775}
+2025-05-25 16:56:32,566 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 16:56:32,567 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 16:57:23,840 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 16:57:23,842 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.94999999997625}
+2025-05-25 16:57:35,843 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 16:57:35,846 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 16:57:35,847 - RAG Application - INFO - Context Precision: nan
+2025-05-25 16:57:35,847 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 16:57:35,849 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 16:57:35,849 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 16:57:35,850 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 16:57:35,851 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 16:57:35,851 - RAG Application - INFO - Context Precision: 0.699999999965
+2025-05-25 16:57:35,852 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 16:57:35,853 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 16:57:35,853 - RAG Application - INFO - Context Precision: 0.4499999999775
+2025-05-25 16:57:35,854 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 16:57:35,854 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 16:57:35,855 - RAG Application - INFO - Context Precision: 0.94999999997625
+2025-05-25 16:57:35,855 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 16:57:35,857 - RAG Application - INFO - Average Context Precision score for chroma_metadata: 0.7749999999746875
+2025-05-25 16:57:35,946 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\snow_arctic-embed-m-long_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 16:57:36,108 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-25 16:58:36,113 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata_reranker
+2025-05-25 16:58:36,152 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 16:58:38,413 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 16:58:38,414 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 16:58:50,430 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 16:58:50,430 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 16:59:29,754 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 16:59:29,756 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 16:59:41,770 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 16:59:41,771 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 17:00:24,014 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 17:00:24,015 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.999999999975}
+2025-05-25 17:00:36,021 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 17:00:36,023 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 17:01:30,592 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 17:01:30,594 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.7555555555303703}
+2025-05-25 17:01:42,595 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 17:01:42,595 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 17:02:32,724 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 17:02:32,725 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 17:02:44,733 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 17:02:44,735 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 17:02:44,736 - RAG Application - INFO - Context Precision: nan
+2025-05-25 17:02:44,737 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:02:44,737 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 17:02:44,738 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 17:02:44,739 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:02:44,739 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 17:02:44,739 - RAG Application - INFO - Context Precision: 0.999999999975
+2025-05-25 17:02:44,741 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:02:44,741 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 17:02:44,742 - RAG Application - INFO - Context Precision: 0.7555555555303703
+2025-05-25 17:02:44,743 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:02:44,743 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 17:02:44,744 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 17:02:44,744 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:02:44,745 - RAG Application - INFO - Average Context Precision score for chroma_metadata_reranker: 0.9388888888663426
+2025-05-25 17:02:44,866 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\snow_arctic-embed-m-long_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 17:02:45,080 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-25 17:42:33,957 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 17:42:33,959 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 17:42:33,965 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 17:42:33,994 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 17:42:54,906 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 17:42:54,906 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': 0.8333333332916666}
+2025-05-25 17:43:06,911 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 17:43:06,911 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 17:44:03,051 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 17:44:03,051 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 17:44:15,053 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 17:44:15,053 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 17:45:02,678 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 17:45:02,678 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 17:45:14,693 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 17:45:14,693 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 17:46:10,355 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 17:46:10,355 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 17:46:22,355 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 17:46:22,357 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 17:47:14,839 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 17:47:14,839 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999995}
+2025-05-25 17:47:26,846 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 17:47:26,846 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 17:47:26,846 - RAG Application - INFO - Context Precision: 0.8333333332916666
+2025-05-25 17:47:26,846 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:47:26,846 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 17:47:26,846 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 17:47:26,846 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:47:26,846 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 17:47:26,846 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 17:47:26,846 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:47:26,846 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 17:47:26,846 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 17:47:26,846 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:47:26,846 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 17:47:26,854 - RAG Application - INFO - Context Precision: 0.99999999995
+2025-05-25 17:47:26,854 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:47:26,854 - RAG Application - INFO - Average Context Precision score for faiss_reranker: 0.9666666666363334
+2025-05-25 17:47:26,881 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\bge-m3_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 17:47:26,903 - RAG Application - WARNING - Error reading existing summary, creating new one: Worksheet named 'summary' not found
+2025-05-25 17:47:26,948 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-25 17:48:26,961 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata
+2025-05-25 17:48:26,989 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 17:48:29,198 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 17:48:29,198 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 17:48:41,210 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 17:48:41,210 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 17:49:25,117 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 17:49:25,117 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 17:49:37,124 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 17:49:37,124 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 17:50:22,209 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 17:50:22,209 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 17:50:34,210 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 17:50:34,211 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 17:53:09,272 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 17:53:09,272 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 17:53:09,278 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 17:53:09,284 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 17:53:30,305 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 17:53:30,305 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': 0.8333333332916666}
+2025-05-25 17:53:42,317 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 17:53:42,318 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 17:54:38,445 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 17:54:38,445 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 17:54:50,449 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 17:54:50,450 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 17:55:38,049 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 17:55:38,049 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 17:55:50,053 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 17:55:50,053 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 17:56:44,942 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 17:56:44,943 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 17:56:56,957 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 17:56:56,957 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 17:57:50,343 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 17:57:50,344 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999995}
+2025-05-25 17:58:02,354 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 17:58:02,355 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 17:58:02,356 - RAG Application - INFO - Context Precision: 0.8333333332916666
+2025-05-25 17:58:02,356 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:58:02,356 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 17:58:02,357 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 17:58:02,357 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:58:02,357 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 17:58:02,358 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 17:58:02,358 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:58:02,358 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 17:58:02,358 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 17:58:02,359 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:58:02,359 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 17:58:02,359 - RAG Application - INFO - Context Precision: 0.99999999995
+2025-05-25 17:58:02,359 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 17:58:02,361 - RAG Application - INFO - Average Context Precision score for faiss_reranker: 0.9666666666363334
+2025-05-25 17:58:02,430 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\bge-m3_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 17:58:02,512 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-25 17:59:02,529 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata
+2025-05-25 17:59:02,536 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 17:59:04,698 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 17:59:04,698 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 17:59:16,702 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 17:59:16,703 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 18:00:00,449 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 18:00:00,450 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 18:00:12,454 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 18:00:12,454 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 18:01:00,246 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 18:01:00,247 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 18:01:12,260 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 18:01:12,260 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 18:02:07,538 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 18:02:07,538 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 18:02:19,552 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 18:02:19,552 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 18:03:10,409 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 18:03:10,410 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.999999999975}
+2025-05-25 18:03:22,420 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 18:03:22,424 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 18:03:22,424 - RAG Application - INFO - Context Precision: nan
+2025-05-25 18:03:22,425 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 18:03:22,425 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 18:03:22,426 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 18:03:22,426 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 18:03:22,427 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 18:03:22,427 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 18:03:22,427 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 18:03:22,428 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 18:03:22,428 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 18:03:22,429 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 18:03:22,429 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 18:03:22,430 - RAG Application - INFO - Context Precision: 0.999999999975
+2025-05-25 18:03:22,430 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 18:03:22,431 - RAG Application - INFO - Average Context Precision score for chroma_metadata: 0.99999999997875
+2025-05-25 18:03:22,514 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\bge-m3_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 18:03:22,664 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-25 18:04:22,674 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata_reranker
+2025-05-25 18:04:22,696 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 18:04:25,634 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 18:04:25,635 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 18:04:37,637 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 18:04:37,638 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 18:05:30,814 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 18:05:30,814 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 18:05:42,820 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 18:05:42,820 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 18:06:31,204 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 18:06:31,205 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 18:06:43,222 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 18:06:43,222 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 18:07:40,266 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 18:07:40,268 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 18:07:52,270 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 18:07:52,270 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 18:08:42,273 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 18:08:42,274 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 18:08:54,281 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 18:08:54,283 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 18:08:54,283 - RAG Application - INFO - Context Precision: nan
+2025-05-25 18:08:54,283 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 18:08:54,284 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 18:08:54,284 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 18:08:54,284 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 18:08:54,285 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 18:08:54,285 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 18:08:54,285 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 18:08:54,286 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 18:08:54,286 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 18:08:54,286 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 18:08:54,286 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 18:08:54,287 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 18:08:54,287 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 18:08:54,287 - RAG Application - INFO - Average Context Precision score for chroma_metadata_reranker: 0.99999999998
+2025-05-25 18:08:54,370 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\bge-m3_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 18:08:54,546 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker
+2025-05-25 20:07:31,804 - RAG Application - INFO - Initializing Context Precision Evaluator
+2025-05-25 20:07:31,805 - RAG Application - INFO - Context Precision Evaluator initialized successfully
+2025-05-25 20:07:31,846 - RAG Application - INFO - Running context precision evaluation for method: faiss_reranker
+2025-05-25 20:07:31,887 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 20:07:50,215 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 20:07:50,215 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': 0.8874999999778125}
+2025-05-25 20:08:02,218 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 20:08:02,220 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 20:08:58,616 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 20:08:58,616 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 20:09:10,620 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 20:09:10,622 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 20:09:54,230 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 20:09:54,230 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.999999999975}
+2025-05-25 20:10:06,231 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 20:10:06,231 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 20:11:00,917 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 20:11:00,917 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 20:11:12,927 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 20:11:12,929 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 20:12:07,596 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 20:12:07,596 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999995}
+2025-05-25 20:12:19,612 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 20:12:19,615 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 20:12:19,615 - RAG Application - INFO - Context Precision: 0.8874999999778125
+2025-05-25 20:12:19,615 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:12:19,615 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 20:12:19,615 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 20:12:19,615 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:12:19,615 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 20:12:19,615 - RAG Application - INFO - Context Precision: 0.999999999975
+2025-05-25 20:12:19,620 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:12:19,620 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 20:12:19,620 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 20:12:19,620 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:12:19,620 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 20:12:19,620 - RAG Application - INFO - Context Precision: 0.99999999995
+2025-05-25 20:12:19,623 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:12:19,624 - RAG Application - INFO - Average Context Precision score for faiss_reranker: 0.9774999999725626
+2025-05-25 20:12:19,714 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_faiss' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 20:12:19,757 - RAG Application - WARNING - Error reading existing summary, creating new one: Worksheet named 'summary' not found
+2025-05-25 20:12:19,834 - RAG Application - INFO - Updated summary sheet with results for faiss_reranker
+2025-05-25 20:13:19,840 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata
+2025-05-25 20:13:19,906 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 20:13:31,914 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 20:13:31,917 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 20:13:43,929 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 20:13:43,930 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 20:14:42,685 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 20:14:42,685 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 20:14:54,687 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 20:14:54,687 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 20:15:41,007 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 20:15:41,007 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 20:15:53,014 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 20:15:53,016 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 20:16:47,555 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 20:16:47,555 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 20:16:59,564 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 20:16:59,564 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 20:17:52,373 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 20:17:52,373 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 20:18:04,387 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 20:18:04,390 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 20:18:04,391 - RAG Application - INFO - Context Precision: nan
+2025-05-25 20:18:04,391 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:18:04,391 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 20:18:04,391 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 20:18:04,391 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:18:04,391 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 20:18:04,391 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 20:18:04,391 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:18:04,391 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 20:18:04,391 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 20:18:04,395 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:18:04,395 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 20:18:04,395 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 20:18:04,397 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:18:04,398 - RAG Application - INFO - Average Context Precision score for chroma_metadata: 0.99999999998
+2025-05-25 20:18:04,525 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 20:18:04,751 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata
+2025-05-25 20:19:04,758 - RAG Application - INFO - Running context precision evaluation for method: chroma_metadata_reranker
+2025-05-25 20:19:04,798 - RAG Application - INFO - Evaluating sample 1/5
+2025-05-25 20:19:07,718 - RAG Application - INFO - Question being evaluated : Who is Alan Fern? 
+2025-05-25 20:19:07,718 - RAG Application - INFO - Sample 1: Score = {'llm_context_precision_with_reference': nan}
+2025-05-25 20:19:19,731 - RAG Application - INFO - Added delay in llm call for question 1
+2025-05-25 20:19:19,731 - RAG Application - INFO - Evaluating sample 2/5
+2025-05-25 20:20:13,344 - RAG Application - INFO - Question being evaluated : Can you tell me if any professor has worked in Anomaly Detection and what work was it? 
+2025-05-25 20:20:13,346 - RAG Application - INFO - Sample 2: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 20:20:25,349 - RAG Application - INFO - Added delay in llm call for question 2
+2025-05-25 20:20:25,349 - RAG Application - INFO - Evaluating sample 3/5
+2025-05-25 20:21:12,876 - RAG Application - INFO - Question being evaluated : What is the main focus of the Hendrix Lab at Oregon State University? 
+2025-05-25 20:21:12,877 - RAG Application - INFO - Sample 3: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 20:21:24,890 - RAG Application - INFO - Added delay in llm call for question 3
+2025-05-25 20:21:24,890 - RAG Application - INFO - Evaluating sample 4/5
+2025-05-25 20:22:20,583 - RAG Application - INFO - Question being evaluated : Are there any professors using AI to study RNA biology for medical purposes?  
+2025-05-25 20:22:20,583 - RAG Application - INFO - Sample 4: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 20:22:32,591 - RAG Application - INFO - Added delay in llm call for question 4
+2025-05-25 20:22:32,591 - RAG Application - INFO - Evaluating sample 5/5
+2025-05-25 20:23:22,951 - RAG Application - INFO - Question being evaluated : Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+ 
+2025-05-25 20:23:22,951 - RAG Application - INFO - Sample 5: Score = {'llm_context_precision_with_reference': 0.99999999998}
+2025-05-25 20:23:34,958 - RAG Application - INFO - Added delay in llm call for question 5
+2025-05-25 20:23:34,961 - RAG Application - INFO - Question 1: Who is Alan Fern?
+2025-05-25 20:23:34,961 - RAG Application - INFO - Context Precision: nan
+2025-05-25 20:23:34,961 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:23:34,961 - RAG Application - INFO - Question 2: Can you tell me if any professor has worked in Anomaly Detection and what work was it?
+2025-05-25 20:23:34,961 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 20:23:34,961 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:23:34,965 - RAG Application - INFO - Question 3: What is the main focus of the Hendrix Lab at Oregon State University?
+2025-05-25 20:23:34,965 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 20:23:34,967 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:23:34,968 - RAG Application - INFO - Question 4: Are there any professors using AI to study RNA biology for medical purposes? 
+2025-05-25 20:23:34,968 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 20:23:34,968 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:23:34,968 - RAG Application - INFO - Question 5: Could you provide me with contact information for Rebecca Hutchinson, or suggest the best way to reach her?
+
+2025-05-25 20:23:34,968 - RAG Application - INFO - Context Precision: 0.99999999998
+2025-05-25 20:23:34,968 - RAG Application - INFO - --------------------------------------------------
+2025-05-25 20:23:34,971 - RAG Application - INFO - Average Context Precision score for chroma_metadata_reranker: 0.99999999998
+2025-05-25 20:23:35,111 - RAG Application - INFO - Context Precision evaluation results saved to sheet 'context_precision_chroma_rerank' in C:\Coding\Projects\osu_eecs_chatbot\production\data\stella_artificial_intelligence\rag_evaluation_results.xlsx
+2025-05-25 20:23:35,381 - RAG Application - INFO - Updated summary sheet with results for chroma_metadata_reranker

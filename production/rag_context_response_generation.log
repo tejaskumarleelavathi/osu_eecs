@@ -1,0 +1,48 @@
+2025-05-11 05:44:57,745 - RAG Application - INFO - Initializing RAG system with:
+2025-05-11 05:44:57,745 - RAG Application - INFO -   LLM Provider: groq
+2025-05-11 05:44:57,745 - RAG Application - INFO -   LLM Model: llama3-70b-8192
+2025-05-11 05:44:57,745 - RAG Application - INFO -   Embedding Client: huggingface
+2025-05-11 05:44:57,745 - RAG Application - INFO -   Embedding Model: BAAI/bge-m3
+2025-05-11 05:44:57,745 - RAG Application - INFO - Initializing RAG system...
+2025-05-11 05:54:30,620 - RAG Application - INFO - Initializing RAG system with:
+2025-05-11 05:54:30,620 - RAG Application - INFO -   LLM Provider: groq
+2025-05-11 05:54:30,620 - RAG Application - INFO -   LLM Model: llama3-70b-8192
+2025-05-11 05:54:30,620 - RAG Application - INFO -   Embedding Client: huggingface
+2025-05-11 05:54:30,620 - RAG Application - INFO -   Embedding Model: BAAI/bge-m3
+2025-05-11 05:54:30,620 - RAG Application - INFO - Initializing RAG system...
+2025-05-11 05:54:57,555 - RAG Application - INFO - Initializing RAG system with:
+2025-05-11 05:54:57,555 - RAG Application - INFO -   LLM Provider: groq
+2025-05-11 05:54:57,555 - RAG Application - INFO -   LLM Model: llama3-70b-8192
+2025-05-11 05:54:57,555 - RAG Application - INFO -   Embedding Client: huggingface
+2025-05-11 05:54:57,555 - RAG Application - INFO -   Embedding Model: BAAI/bge-m3
+2025-05-11 05:54:57,555 - RAG Application - INFO - Initializing RAG system...
+2025-05-11 06:05:07,089 - RAG Application - INFO - Initializing RAG system with:
+2025-05-11 06:05:07,089 - RAG Application - INFO -   LLM Provider: groq
+2025-05-11 06:05:07,089 - RAG Application - INFO -   LLM Model: llama3-70b-8192
+2025-05-11 06:05:07,089 - RAG Application - INFO -   Embedding Client: huggingface
+2025-05-11 06:05:07,089 - RAG Application - INFO -   Embedding Model: BAAI/bge-m3
+2025-05-11 06:05:07,089 - RAG Application - INFO - Initializing RAG system...
+2025-05-11 06:05:52,283 - RAG Application - INFO - Initializing RAG system with:
+2025-05-11 06:05:52,283 - RAG Application - INFO -   LLM Provider: groq
+2025-05-11 06:05:52,283 - RAG Application - INFO -   LLM Model: llama3-70b-8192
+2025-05-11 06:05:52,283 - RAG Application - INFO -   Embedding Client: huggingface
+2025-05-11 06:05:52,283 - RAG Application - INFO -   Embedding Model: BAAI/bge-m3
+2025-05-11 06:05:52,283 - RAG Application - INFO - Initializing RAG system...
+2025-05-11 06:10:23,816 - RAG Application - INFO - Initializing RAG system with:
+2025-05-11 06:10:23,816 - RAG Application - INFO -   LLM Provider: groq
+2025-05-11 06:10:23,816 - RAG Application - INFO -   LLM Model: llama3-70b-8192
+2025-05-11 06:10:23,816 - RAG Application - INFO -   Embedding Client: huggingface
+2025-05-11 06:10:23,816 - RAG Application - INFO -   Embedding Model: BAAI/bge-m3
+2025-05-11 06:10:23,816 - RAG Application - INFO - Initializing RAG system...
+2025-05-21 12:10:43,833 - RAG Application - INFO - Initializing RAG system with:
+2025-05-21 12:10:43,833 - RAG Application - INFO -   LLM Provider: groq
+2025-05-21 12:10:43,833 - RAG Application - INFO -   LLM Model: llama-3.3-70b-versatile
+2025-05-21 12:10:43,833 - RAG Application - INFO -   Embedding Client: huggingface
+2025-05-21 12:10:43,834 - RAG Application - INFO -   Embedding Model: BAAI/bge-m3
+2025-05-21 12:10:43,834 - RAG Application - INFO - Initializing RAG system...
+2025-05-21 12:11:08,652 - RAG Application - INFO - Initializing RAG system with:
+2025-05-21 12:11:08,652 - RAG Application - INFO -   LLM Provider: groq
+2025-05-21 12:11:08,652 - RAG Application - INFO -   LLM Model: llama-3.3-70b-versatile
+2025-05-21 12:11:08,652 - RAG Application - INFO -   Embedding Client: huggingface
+2025-05-21 12:11:08,652 - RAG Application - INFO -   Embedding Model: BAAI/bge-m3
+2025-05-21 12:11:08,653 - RAG Application - INFO - Initializing RAG system...
